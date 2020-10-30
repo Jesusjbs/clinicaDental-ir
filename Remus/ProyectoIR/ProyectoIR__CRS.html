@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="iso-8859-1" />
+<meta name="generatedBy" content="REMUS (REM 1.3)" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/stylesheets/remus.css" />
+<title>Proyecto ProyectoIR</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.0.2/showdown.js"></script>
+<script>
+            // showdown 1.0.2 (supported in IE 7 without es5-shim)
+            // Usage
+            // var result = converter.makeHtml(text);
+            // converter.setOption( "key", "value" );
+
+            var converter = new showdown.Converter();
+
+            // function to be used in XLST templates
+            // if inline=true, all CRLF tags are replaced
+            // by spaces to avoid internal <p>..</p> and
+            // the enclosing <p>..</p> (if any) is discarded.
+
+            function generate_markdown( id, inline )
+            {
+                // optional parameter
+                if ( inline === undefined ) {
+                    inline = false;
+                }
+
+                var md_id   = id + "-md";
+                var html_id = id + "-html";
+
+                var md_container   = document.getElementById( md_id );
+                var html_container = document.getElementById( html_id );
+
+                var md_text = md_container.value;
+
+                md_container.value = "remus_text = " + md_text; // for debugging
+
+                // Simple text replace can be performed using split and join faster
+                // than using replace with a regular expression as described in:
+                // https://dmitripavlutin.com/replace-all-string-occurrences-javascript/
+
+                /* no internal <p>...</p> in inline mode */
+                var newline = inline ? " " : "\n";
+                var two_newlines = newline + newline;
+
+                var crlf_tag             = "¬";
+                var two_crlf_tags        = crlf_tag + crlf_tag;
+                var three_spaces_newline = "   " + newline;
+                var reg_exp = new RegExp( "(" + crlf_tag + ")(?!(\\d\\.)|\\*|\\+|\\-|\\<)", 'g' );
+
+                // if ( inline )
+                //      replace all CRLF by spaces
+                // else
+                //      replace all CRLF+CRLF into \n\n
+                //      replace all CRLF not followed by *,+,-,&gt; or a digit+period into 3 spaces + \n
+                //      replace all remaining CRLF into \n
+                // endif
+                //
+                // try regular expressions at: https://regexr.com/
+
+                if ( inline ) {
+                    md_text = md_text.split( crlf_tag ).join( newline );
+                }
+                else {
+                    md_text = md_text.split( two_crlf_tags ).join( newline + newline );
+                    md_text = md_text.replace( reg_exp, three_spaces_newline + "$2" );
+                    md_text = md_text.split( crlf_tag ).join( newline );
+                }
+
+                md_container.value += "\n\nmd_text = " + md_text; // for debugging
+
+                // Don't get rid of enclosing <p>...</p> in paragraph mode,
+                // double \n inside markdown will close the first <p> generating an
+                // unbalanced </p> later and wrong html that will raise an
+                // error when assigned to innerHTML.
+
+                var html_text = converter.makeHtml( md_text );
+
+                if ( inline ) {
+                    // get rid of enclosing <p>...</p> (if any)
+                    // warning: generated item lists are not inside <p>...</p>
+                    // length("<p>") == 3, length("</p>") == 4
+                    if ( html_text.indexOf("<p>")       == 0 &&
+                         html_text.lastIndexOf("</p>")  == html_text.length - 4 )
+                    {
+                        html_text = html_text.slice( 3, -4 );
+                    }
+                }
+
+                md_container.value += ("\n\nhtml_text = " + html_text); // for debugging
+
+                html_container.innerHTML = html_text;
+            }
+
+            // array for user warnings
+            var warnings = new Array();
+        </script>
+</head>
+<body>
+<div id="warning_container" class="ui-widget">
+<span id="warning_title">Avisos</span>
+<div id="warning_messages"></div>
+</div>
+<div id="document_cover">
+<div id="browser_info">
+<script>
+                document.write( navigator.userAgent + "<br />" );
+                for( var opt in converter.getOptions() ) {
+                    document.write( "local option : " + opt + " = " + converter.getOption(opt) + "<br />" );
+                }
+                for( var opt in showdown.getOptions() ) {
+                    document.write( "global option : " + opt + " = " + showdown.getOption(opt) + "<br />" );
+                }
+            </script>
+</div>
+<div id="project_name">Proyecto ProyectoIR</div>
+<div id="document_logo">
+<img alt="Universidad de Sevilla" src="https://cdn.jsdelivr.net/gh/amador-duran-toro/rem/assets/images/logo_us.gif" />
+</div>
+<div id="document_name">Documento de Requisitos del Sistema</div>
+<div id="document_version">Versión 1.0</div>
+<div id="document_date">Fecha 30/10/2020</div>
+<div id="document_prepared_for">Preparado para:<p>
+<a href="#ORG-0002">Clínica López Mumpao</a>
+</p>
+</div>
+<div id="document_prepared_by">Preparado por:<p>
+<a href="#ORG-0001">Grupo IR-G1-BBJ-16</a>
+</p>
+</div>
+</div>
+<div class="pagebreak"></div>
+<nav id="toc" role="navigation">
+<h1>Índice</h1>
+<ul class="toc_list toc_list_level_1">
+<li>1 <a href="#SEC-0001">Introducción</a></li>
+<ul class="toc_list">
+<li>1.1 <a href="#SEC-0005">Alcance del proyecto</a></li>
+<li>1.2 <a href="#SEC-0006">Participantes en el proyecto</a></li>
+<ul class="toc_list">
+<li>1.2.1 <a href="#SEC-0007">Organizaciones participantes</a></li>
+<li>1.2.2 <a href="#SEC-0008">Personas participantes</a></li>
+</ul>
+<li>1.3 <a href="#SEC-0009">Objetivos del proyecto</a></li>
+</ul>
+<li>2 <a href="#SEC-0002">Información sobre el dominio del problema</a></li>
+<ul class="toc_list">
+<li>2.1 <a href="#SEC-0003">Intoducción al dominio del problema</a></li>
+<li>2.2 <a href="#SEC-0004">Glosario de términos del dominio del problema</a></li>
+</ul>
+</ul>
+</nav>
+<div class="pagebreak"></div>
+<h1 id="SEC-0001" class="section">1 Introducción</h1>
+<h2 id="SEC-0005" class="section">1.1 Alcance del proyecto</h2>
+<div id="PRG-0001">
+<textarea id="PRG-0001-text-md" class="markdown">Clínica López Mumpao es un moderno centro en el que se ofrecen diversos servicios y tratamientos médicos. Está ubicado en Los Palacios y Villafranca, y en él se puede elegir entre una gran variedad de servicios especializados en medicina estética, odontología y cirugía estética.¬¬La clinica realiza grandes inversiones en materiales, productos y aparatología de última generación. Además, tiene en venta una gran variedad de artículos (cremas dermatológicas, enjuagues bucales, etc.). Como consecuencia, ha crecido notablemente estos últimos años.</textarea>
+<div id="PRG-0001-text-html" class=""></div>
+<script>generate_markdown("PRG-0001-text");</script>
+</div>
+<h2 id="SEC-0006" class="section">1.2 Participantes en el proyecto</h2>
+<h3 id="SEC-0007" class="section">1.2.1 Organizaciones participantes</h3>
+<div id="ORG-0001">
+<table class="organization remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/organization.png" /> Organización</th>
+<th class="name_column" colspan="1">Grupo IR-G1-BBJ-16</th>
+</tr>
+</thead>
+<tr>
+<th>Dirección</th>
+<td colspan="1">
+<textarea id="ORG-0001-address-md" class="markdown">
+<span class="tbd" title="Por determinar">PD</span></textarea>
+<div id="ORG-0001-address-html" class=""></div>
+<script>generate_markdown("ORG-0001-address");</script>
+</td>
+</tr>
+<tr>
+<th>Teléfono</th>
+<td colspan="1">672 35 15 71</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="ORG-0001-comments-md" class="markdown">Ninguno</textarea>
+<div id="ORG-0001-comments-html" class="remus_comments"></div>
+<script>generate_markdown("ORG-0001-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="ORG-0002">
+<table class="organization remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/organization.png" /> Organización</th>
+<th class="name_column" colspan="1">Clínica López Mumpao</th>
+</tr>
+</thead>
+<tr>
+<th>Dirección</th>
+<td colspan="1">
+<textarea id="ORG-0002-address-md" class="markdown">Avenida de Sevilla, 52, 41720 Los Palacios y Villafranca, Sevilla</textarea>
+<div id="ORG-0002-address-html" class=""></div>
+<script>generate_markdown("ORG-0002-address");</script>
+</td>
+</tr>
+<tr>
+<th>Teléfono</th>
+<td colspan="1">955 81 91 88</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="ORG-0002-comments-md" class="markdown">Ninguno</textarea>
+<div id="ORG-0002-comments-html" class="remus_comments"></div>
+<script>generate_markdown("ORG-0002-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<h3 id="SEC-0008" class="section">1.2.2 Personas participantes</h3>
+<div id="STK-0001">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Jesús Barba Sigüenza</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0001">Grupo IR-G1-BBJ-16</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<textarea id="STK-0001-stakeholderRole-md" class="markdown">Ingeniero de Requisitos                        (es desarrollador)                    </textarea>
+<span id="STK-0001-stakeholderRole-html"></span>
+<script>generate_markdown("STK-0001-stakeholderRole",true);</script>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="STK-0001-comments-md" class="markdown">Ninguno</textarea>
+<div id="STK-0001-comments-html" class="remus_comments"></div>
+<script>generate_markdown("STK-0001-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0002">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Manuel Moguer Villalba</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0001">Grupo IR-G1-BBJ-16</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<textarea id="STK-0002-stakeholderRole-md" class="markdown">Ingeniero de Requisitos                        (es desarrollador, es usuario)                    </textarea>
+<span id="STK-0002-stakeholderRole-html"></span>
+<script>generate_markdown("STK-0002-stakeholderRole",true);</script>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="STK-0002-comments-md" class="markdown">Ninguno</textarea>
+<div id="STK-0002-comments-html" class="remus_comments"></div>
+<script>generate_markdown("STK-0002-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0003">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Fernando Hernández Quesada</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0001">Grupo IR-G1-BBJ-16</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<textarea id="STK-0003-stakeholderRole-md" class="markdown">Ingeniero de Requisitos                        (es desarrollador)                    </textarea>
+<span id="STK-0003-stakeholderRole-html"></span>
+<script>generate_markdown("STK-0003-stakeholderRole",true);</script>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="STK-0003-comments-md" class="markdown">Ninguno</textarea>
+<div id="STK-0003-comments-html" class="remus_comments"></div>
+<script>generate_markdown("STK-0003-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0004">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Ana María Barba Sigüenza</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">Clínica López Mumpao</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<textarea id="STK-0004-stakeholderRole-md" class="markdown">Recepcionista                        (es cliente)                    </textarea>
+<span id="STK-0004-stakeholderRole-html"></span>
+<script>generate_markdown("STK-0004-stakeholderRole",true);</script>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="STK-0004-comments-md" class="markdown">Ninguno</textarea>
+<div id="STK-0004-comments-html" class="remus_comments"></div>
+<script>generate_markdown("STK-0004-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0009" class="section">1.3 Objetivos del proyecto</h2>
+<h1 id="SEC-0002" class="section">2 Información sobre el dominio del problema</h1>
+<h2 id="SEC-0003" class="section">2.1 Intoducción al dominio del problema</h2>
+<h2 id="SEC-0004" class="section">2.2 Glosario de términos del dominio del problema</h2>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+            // set tooltips of rem:ref references to glossary items or class supertypes
+            $( ".rem_ref" ).each( function () {
+                var sharp_position = this.href.lastIndexOf("#");
+                var id_glossary_item = this.href.substring( sharp_position + 1 ) + "-text-html";
+                var id_supertype = this.href.substring( sharp_position + 1 ) + "-description-html";
+
+                // some rem:refs to use cases do not have -text-html elements
+                if ( document.getElementById( id_glossary_item ) )
+                    this.title = document.getElementById( id_glossary_item ).innerText;
+
+                else if ( document.getElementById( id_supertype ) )
+                    this.title = document.getElementById( id_supertype ).innerText;
+            });
+
+            // set tooltips of rem:tbd elements
+            $( ".tbd" ).each( function () {
+                this.title = 'Por determinar';
+            });
+
+            // show warnings (if any)
+            if ( warnings.length ) {
+                var warning_list = $("<ul></ul>");
+                for ( var i = 0; i < warnings.length; i++ ) {
+                    var warning = warnings[ i ];
+                    var warning_link = $('<a href="#' + warning.oid + '">' + warning.oid + '</a>' );
+                    var warning_message = ": " + warning.message;
+                    var warning_item = $("<li></li>").append(warning_link, warning_message);
+
+                    warning_list.append( warning_item );
+                }
+                $("#warning_messages").append( warning_list );
+                $("#warning_container").show();
+            }
+
+            // manage traceability matrices buttons
+            function update_font_size( parent_table, size )
+            {
+                var matrix_columns = parent_table.find( "th.matrix_column" );
+                var font_size = parseInt( matrix_columns.eq(0).css( "font-size" ), 10 );
+
+                matrix_columns.css( "font-size", font_size + size );
+            }
+
+            $( "button.reduce_font" ).click( function() {
+                var parent_table = $(this).parents( "table.traceability_matrix" );
+                update_font_size( parent_table, -1 );
+            });
+
+            $( "button.increase_font" ).click( function() {
+                var parent_table = $(this).parents( "table.traceability_matrix" );
+                update_font_size( parent_table, 1 );
+            });
+        </script>
+<script src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/javascripts/ie7-shim-min-width.js"></script>
+<script>
+            fixMinWidthForIE();
+        </script>
+</body>
+</html>
