@@ -243,7 +243,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>- Automatización del almacén de la clínica. El sistema notificará al <rem:ref oid="GLO-0005">cliente</rem:ref> cuando el <rem:ref oid="GLO-0004">stock</rem:ref> de un producto sea menor de lo requerido y solicitará la cantidad deseada al proveedor.<br/><br/>- Diversidad a la hora de pedir citas. Además de los métodos acutales (vía telefónica y presencial), añadir otro método para solicitar las citas (vía on-line).<br/><br/>- Ofrecer otro método de venta. Añadir la posibilidad de vender los productos del local en la web.</rem:text>
+<rem:text>- Automatización del almacén de la clínica. El sistema notificará al <rem:ref oid="GLO-0005">cliente</rem:ref> cuando el <rem:ref oid="GLO-0004">stock</rem:ref> de un producto sea menor de lo requerido y solicitará la cantidad deseada al proveedor.<br/><br/>- Diversidad a la hora de pedir citas. Además de los métodos acutales (vía telefónica y presencial), añadir otro método para solicitar las citas (vía on-line).<br/><br/>- Ofrecer otro método de venta. Añadir la posibilidad de vender los productos del local en la web.<br/><br/>- Automatización de ciertas tareas presentes en los procesos de depilación láser e implantación de <rem:ref oid="GLO-0017">bráckets</rem:ref>.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -287,7 +287,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Existe un sistema de información desactualizado no aplicable a la mayoría de procesos, por lo que en muchos casos es inservible. Por ello, a la hora de gestionar el <rem:ref oid="GLO-0004">stock</rem:ref> se realiza de forma manual con un recuento semanal.<br/><br/>Los pedidos a proveedores se realizan de forma tradicional. El <rem:ref oid="GLO-0005">cliente</rem:ref>, tras realizar el recuento y si lo ve necesario, contacta con el proveedor para acordar un pedido.<br/><br/>Al no disponer de una plataforma online donde vender sus productos, la comercialización se realiza únicamente en el local, llegando a un público bastante reducido.<br/><br/>Los únicos medios de solicitar un <rem:ref oid="GLO-0007">servicio</rem:ref> y pedir una cita son de forma presencial o mediante llamada telefónica, existiendo el riesgo de que estos se colapsen debido al tiempo que se tarda en recoger los datos requeridos.</rem:text>
+<rem:text>Existe un sistema de información desactualizado no aplicable a la mayoría de procesos, por lo que en muchos casos es inservible. Por ello, a la hora de gestionar el <rem:ref oid="GLO-0004">stock</rem:ref> se realiza de forma manual con un recuento semanal.<br/><br/>Los pedidos a proveedores se realizan de forma tradicional. El <rem:ref oid="GLO-0005">cliente</rem:ref>, tras realizar el recuento y si lo ve necesario, contacta con el proveedor para acordar un pedido.<br/><br/>Al no disponer de una plataforma online donde vender sus productos, la comercialización se realiza únicamente en el local, llegando a un público bastante reducido.<br/><br/>Los únicos medios para solicitar un <rem:ref oid="GLO-0007">servicio</rem:ref> y pedir una cita son de forma presencial o mediante llamada telefónica, existiendo el riesgo de que estos se colapsen debido al tiempo que se tarda en recoger los datos requeridos.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0004">
@@ -359,6 +359,20 @@
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
 <rem:text>tratamientos odontológicos o estéticos que recibe un <rem:ref oid="GLO-0006">usuario</rem:ref> por parte de la clínica.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0017">
+<rem:name>Bráckets</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>herramienta utilizada en usuarios para corregir tanto la mordedura como la posición de los dientes.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 </rem:section>
@@ -445,7 +459,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>- La secretaria debe enviar de forma manual el mensaje de aviso de próxima cita al <rem:ref oid="GLO-0006">usuario</rem:ref>, inviertiendo demasiado tiempo en esta actividad.<br/><br/>- Al iniciar el sistema de información actual se abren diferentes pestañas con publicidad, provocando así un problema de rendimiento y siendo molesto su uso.<br/><br/>- Se producen fallos frecuentemente al realizar el recuento semanal del <rem:ref oid="GLO-0004">stock</rem:ref>, lo que conlleva que se tenga que solicitar unidades de más de los productos por si se produjera un error.</rem:text>
+<rem:text>- La secretaria debe enviar de forma manual el mensaje de aviso de próxima cita al <rem:ref oid="GLO-0006">usuario</rem:ref>, inviertiendo demasiado tiempo en esta actividad.<br/><br/>- Al iniciar el sistema de información actual se abren diferentes pestañas con publicidad, provocando así un problema de rendimiento y siendo molesto su uso.<br/><br/>- Se producen fallos frecuentemente al realizar el recuento semanal del <rem:ref oid="GLO-0004">stock</rem:ref>, lo que conlleva que se tenga que solicitar unidades de más de los productos por si se produjera un error.<br/><br/>- Los pacientes tienen que contactar con la clínica frecuentemente para cambiar las citas o para recordar las instrucciones que deben seguir tras la última consulta, haciéndolo una tarea tediosa.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -489,7 +503,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>- Recepcionista: es la cara visible de la clínica, se encarga de la recepción de los pacientes y su posterior organización a nivel agenda con los compañeros. Además, también se ocupa de la venta de productos.<br/><br/>- Dentista: realiza los trabajos de odontología general (empastes, limpiezas, toma de impresiones, endodoncias, extracciones, etc).<br/><br/>- Cirujano: persona encargada de los pacientes con casos que suponen una mayor dificultad, como extracciones de cordales o colocación de implantes.<br/><br/>- Ortodoncista: es el encargado de que la boca funcione bien a nivel ortopédico mediante la colocación de brackets, invisalign, etc.<br/><br/>- Auxiliar/Higienista: es el encargado de realizar limpiezas bucales y ayudar en las actividades a los demás compañeros mencionados anteriormente.<br/><br/>- Protésico: persona encargada de fabricar prótesis removibles de los pacientes (como prótesis completas, esqueléticos, etc).<br/><br/>- Limpiador/a: encargado/a de la limpieza y desinfección de la clínica.<br/><br/>- Proveedor: es la persona representante de la empresa encargada de suministrar los productos necesarios, tanto para realizar las actividades de la clínica como para su venta en ella.<br/><br/>- Jefe: encargado de la administración de la clínica, lleva la gestión económica y del <rem:ref oid="GLO-0004">stock</rem:ref>.</rem:text>
+<rem:text>- &lt;b&gt;Recepcionista&lt;/b&gt;: es la cara visible de la clínica, se encarga de la recepción de los pacientes y su posterior organización a nivel agenda con los compañeros. Además, también se ocupa de la venta de productos.<br/><br/>- &lt;b&gt;Dentista&lt;/b&gt;: realiza los trabajos de odontología general (empastes, limpiezas, toma de impresiones, endodoncias, extracciones, etc).<br/><br/>- &lt;b&gt;Cirujano&lt;/b&gt;: persona encargada de los pacientes con casos que suponen una mayor dificultad, como extracciones de cordales o colocación de implantes.<br/><br/>- &lt;b&gt;Ortodoncista&lt;/b&gt;: es el encargado de que la boca funcione bien a nivel ortopédico mediante la colocación de brackets, invisalign, etc.<br/><br/>- &lt;b&gt;Auxiliar/Higienista&lt;/b&gt;: es el encargado de realizar limpiezas bucales y ayudar en las actividades a los demás compañeros mencionados anteriormente.<br/><br/>- &lt;b&gt;Protésico&lt;/b&gt;: persona encargada de fabricar prótesis removibles de los pacientes (como prótesis completas, esqueléticos, etc).<br/><br/>- &lt;b&gt;Limpiador/a&lt;/b&gt;: encargado/a de la limpieza y desinfección de la clínica.<br/><br/>- &lt;b&gt;Proveedor&lt;/b&gt;: es la persona representante de la empresa encargada de suministrar los productos necesarios, tanto para realizar las actividades de la clínica como para su venta en ella.<br/><br/>- &lt;b&gt;Jefe&lt;/b&gt;: encargado de la administración de la clínica, lleva la gestión económica y del <rem:ref oid="GLO-0004">stock</rem:ref>.<br/><br/>- &lt;b&gt;Médico&lt;/b&gt;: persona encargada de llevar a cabo el proceso de depilación láser.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0016">
@@ -518,7 +532,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>- Solicitar cita.<br/>- Venta de productos. Barba<br/>- Implantación de bracket. Manuel<br/>- Proceso de depilación laser. Fernando</rem:text>
+<rem:text>- Solicitar cita.<br/>- Venta de productos.<br/>- Implantación de brácket.<br/>- Proceso de depilación láser.<br/>- Solicitud de <rem:ref oid="GLO-0004">stock</rem:ref>.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -636,7 +650,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>- Facilitar citas. Ampliando los metódos disponibles que hay actualmente y añadiendo la posibilidad de solicitar cita de manera on-line a través de la aplicación web.<br/><br/>- Aumentar ventas. Añadir nuevos métodos para que los usuarios adquieran productos del local. <br/><br/>- Automatización del <rem:ref oid="GLO-0004">stock</rem:ref>. Controlar la cantidad exacta de cada producto que hay disponible en cada momento, y que se avise cuando sea necesario adquirir más.<br/><br/>- Disponer de una aplicación web. Para que la clínica se de a conocer a un mayor público además de albergar otras funcionalidades.</rem:text>
+<rem:text>- Facilitar la contratación y solicitud de citas. Ampliando los metódos disponibles que hay actualmente y añadiendo la posibilidad de solicitar servicios y citas de manera on-line a través de la aplicación web.<br/><br/>- Aumentar ventas. Añadir nuevos métodos para que los usuarios adquieran productos del local. <br/><br/>- Automatización del <rem:ref oid="GLO-0004">stock</rem:ref>. Controlar la cantidad exacta de cada producto que hay disponible en cada momento, y que se avise cuando sea necesario adquirir más.<br/><br/>- Disponer de una aplicación web. Para que la clínica se de a conocer a un mayor público además de albergar otras funcionalidades.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0022">
@@ -679,7 +693,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>- Administrador de ventas: será el encargado tanto de la venta de productos en local, como de la venta en web (subir productos, eliminar productos, actualizar el <rem:ref oid="GLO-0004">stock</rem:ref>, etc).</rem:text>
+<rem:text>- Administrador de ventas: será el encargado tanto de la venta de productos en local, como de la venta en web (subir productos, eliminar productos, etc).</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0024">
@@ -696,6 +710,20 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>4.2.2 </rem:number>
+<rem:paragraph oid="PRG-0016">
+<rem:name>Párrafo 1</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>- Solicitud de citas (incorporar on-line, solicitud de cambio)<br/>- Reducción y solicitud de <rem:ref oid="GLO-0004">stock</rem:ref> (automático, con aviso)<br/>- Proceso de implantación de <rem:ref oid="GLO-0017">bráckets</rem:ref> (<rem:ref oid="GLO-0004">stock</rem:ref> (reducir), correo tras consulta(instrucciones), opción de facturas)<br/>- Proceso de depilación láser (<rem:ref oid="GLO-0004">stock</rem:ref> (reducir), correo tras consulta(instrucciones), opción de facturas)<br/>- Venta de productos (incorporar on-line)<br/>- Proceso de subir productos a web</rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:section>
 </rem:section>
@@ -800,8 +828,8 @@
 <rem:description>Alphanumeric strings</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0004">
-<rem:name>Natural</rem:name>
+<rem:predefinedValueType oid="PVT-0006">
+<rem:name>Date</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -811,23 +839,23 @@
 <rem:day>30</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Natural numbers</rem:description>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Dates</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0001">
-<rem:name>Enum Literal</rem:name>
+<rem:predefinedValueType oid="PVT-0007">
+<rem:name>Time</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2020</rem:year>
+<rem:year>2000</rem:year>
 <rem:month>10</rem:month>
-<rem:day>11</rem:day>
+<rem:day>30</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Enumeration literals</rem:description>
+<rem:description>Hour:minutes:seconds</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0002">
@@ -860,8 +888,8 @@
 <rem:description>Integer numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0006">
-<rem:name>Date</rem:name>
+<rem:predefinedValueType oid="PVT-0004">
+<rem:name>Natural</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -871,38 +899,38 @@
 <rem:day>30</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Dates</rem:description>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Natural numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0007">
-<rem:name>Time</rem:name>
+<rem:predefinedValueType oid="PVT-0001">
+<rem:name>Enum Literal</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2000</rem:year>
+<rem:year>2020</rem:year>
 <rem:month>10</rem:month>
-<rem:day>30</rem:day>
+<rem:day>11</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Hour:minutes:seconds</rem:description>
+<rem:description>Enumeration literals</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0004">
 <rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
@@ -910,40 +938,70 @@
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0003">
-<rem:name>en proceso de negociación</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>resuelto</rem:name>
-</rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0001">
-<rem:name>PD</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0002">
-<rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0001">
+<rem:name>PD</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0007">
 <rem:name>No implementabilidad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0011">
@@ -958,34 +1016,10 @@
 <![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0008">
@@ -994,34 +1028,16 @@
 <![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0013">
 <rem:name>Prioridad no establecida</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
 <rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0017">
@@ -1036,6 +1052,18 @@
 <![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0016">
 <rem:name>No rastreabilidad</rem:name>
 <rem:description>
@@ -1045,32 +1073,32 @@
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
-</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>PD</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0002">
-<rem:name>baja</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>baja</rem:name>
+</rem:stabilityValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
@@ -1078,62 +1106,62 @@
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0002">
-<rem:name>en construcción</rem:name>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
+</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
-<rem:terminationValue oid = "TEV-0001">
-<rem:name>PD</rem:name>
-</rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0001">
-<rem:name>PD</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>día(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0001">
-<rem:name>PD</rem:name>
-</rem:urgencyValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
+</rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>inmediatamente</rem:name>
-</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
