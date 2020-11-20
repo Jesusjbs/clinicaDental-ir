@@ -701,7 +701,7 @@
 </div>
 <h1 id="SEC-0028" class="section">5 Descripción de los subsistemas del sistema a desarrollar</h1>
 <div id="PRG-0035">
-<textarea id="PRG-0035-text-md" class="markdown">No tenemos subsistemas a desarrollar.</textarea>
+<textarea id="PRG-0035-text-md" class="markdown">- &lt;h3&gt;&lt;b&gt;Subsistema de <a href="#GLO-0006" class="rem_ref">Usuario</a>:&lt;/b&gt;&lt;/h3&gt;El subistema se encargará de la parte relacionada con el <a href="#GLO-0006" class="rem_ref">usuario</a>. Abarcará los detalles del paciente, incluyendo sus citas y consultas.¬¬- &lt;h3&gt;&lt;b&gt;Subsistema de Venta:&lt;/b&gt;&lt;/h3&gt;El subistema se encargará de la parte relacionada con la venta de productos on-line y en tienda física.¬¬- &lt;h3&gt;&lt;b&gt;Subsistema de <a href="#GLO-0004" class="rem_ref">Stock</a>:&lt;/b&gt;&lt;/h3&gt;El subsistema se encargará de la parte relacionada con la gestión del <a href="#GLO-0004" class="rem_ref">stock</a>. Abarca los productos existentes en la clínica, y los proveedores para sus encargos.</textarea>
 <div id="PRG-0035-text-html" class=""></div>
 <script>generate_markdown("PRG-0035-text");</script>
 </div>
@@ -1200,11 +1200,571 @@
 <h3 id="SEC-0038" class="section">6.3.3 Requisitos de conducta del sistema</h3>
 <h2 id="SEC-0039" class="section">6.4 Requisitos no funcionales del sistema</h2>
 <h3 id="SEC-0040" class="section">6.4.1 Requisitos de fiabilidad del sistema</h3>
+<div id="NFR-0001">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0001</th>
+<th class="name_column" colspan="1">Tiempo de estado disponible</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="NFR-0001-description-md" class="markdown">El sistema deberá estar disponible todos los días del año, y en caso de no estarlo, el periodo de inactividad no podrá superar las 2 horas.</textarea>
+<div id="NFR-0001-description-html" class=""></div>
+<script>generate_markdown("NFR-0001-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="NFR-0001-comments-md" class="markdown">Ninguno</textarea>
+<div id="NFR-0001-comments-html" class="remus_comments"></div>
+<script>generate_markdown("NFR-0001-comments");</script>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0041" class="section">6.4.2 Requisitos de usabilidad del sistema</h3>
+<div id="NFR-0002">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0002</th>
+<th class="name_column" colspan="1">Tiempo de aprendizaje</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="NFR-0002-description-md" class="markdown">El sistema deberá asegurar que el tiempo de aprendizaje para que un <a href="#GLO-0006" class="rem_ref">usuario</a> conozca como realizar las funciones básicas de éste sea de no más de 1 hora.</textarea>
+<div id="NFR-0002-description-html" class=""></div>
+<script>generate_markdown("NFR-0002-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="NFR-0002-comments-md" class="markdown">Ninguno</textarea>
+<div id="NFR-0002-comments-html" class="remus_comments"></div>
+<script>generate_markdown("NFR-0002-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="NFR-0003">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0003</th>
+<th class="name_column" colspan="1">Diseño adaptativo</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="NFR-0003-description-md" class="markdown">El sistema deberá asegurar una adecuada visualización de la aplicación web en los dispositivos más comunes en el momento de la creación de éste.</textarea>
+<div id="NFR-0003-description-html" class=""></div>
+<script>generate_markdown("NFR-0003-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="NFR-0003-comments-md" class="markdown">Ninguno</textarea>
+<div id="NFR-0003-comments-html" class="remus_comments"></div>
+<script>generate_markdown("NFR-0003-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="NFR-0004">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0004</th>
+<th class="name_column" colspan="1">Mensajes informativos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="NFR-0004-description-md" class="markdown">El sistema deberá proporcionar mensajes informativos tras realizar transacciones satisfactorias o tras cometer un fallo en estas. Estos mensajes deben ser claros y concisos, teniendo como objetivo una correcta comprensión por parte del <a href="#GLO-0006" class="rem_ref">usuario</a>.</textarea>
+<div id="NFR-0004-description-html" class=""></div>
+<script>generate_markdown("NFR-0004-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="NFR-0004-comments-md" class="markdown">Ninguno</textarea>
+<div id="NFR-0004-comments-html" class="remus_comments"></div>
+<script>generate_markdown("NFR-0004-comments");</script>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0042" class="section">6.4.3 Requisitos de mantenibilidad del sistema</h3>
+<div id="NFR-0005">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0005</th>
+<th class="name_column" colspan="1">Obsolescencia</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="NFR-0005-description-md" class="markdown">El sistema deberá asegurar que éste no se quedará obsoleto durante al menos los próximos 5 años tras su creación. Por tanto recibirá actualizaciones para evitarlo, y al menos una al año.</textarea>
+<div id="NFR-0005-description-html" class=""></div>
+<script>generate_markdown("NFR-0005-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="NFR-0005-comments-md" class="markdown">Ninguno</textarea>
+<div id="NFR-0005-comments-html" class="remus_comments"></div>
+<script>generate_markdown("NFR-0005-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="NFR-0006">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0006</th>
+<th class="name_column" colspan="1">Tiempo de reparación</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="NFR-0006-description-md" class="markdown">El sistema deberá evitar que ante la aparición de un fallo, éste no se mantenga durante más de 2 días.</textarea>
+<div id="NFR-0006-description-html" class=""></div>
+<script>generate_markdown("NFR-0006-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="NFR-0006-comments-md" class="markdown">Ninguno</textarea>
+<div id="NFR-0006-comments-html" class="remus_comments"></div>
+<script>generate_markdown("NFR-0006-comments");</script>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0043" class="section">6.4.4 Requisitos de eficiencia del sistema</h3>
+<div id="NFR-0007">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0007</th>
+<th class="name_column" colspan="1">Escalabilidad</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="NFR-0007-description-md" class="markdown">El sistema deberá asegurar que la aplicación web sea capaz de funcionar de forma adecuada con hasta 3.000 usuarios con sesiones concurrentes.</textarea>
+<div id="NFR-0007-description-html" class=""></div>
+<script>generate_markdown("NFR-0007-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">pendiente de verificación</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="NFR-0007-comments-md" class="markdown">Ninguno</textarea>
+<div id="NFR-0007-comments-html" class="remus_comments"></div>
+<script>generate_markdown("NFR-0007-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="NFR-0008">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0008</th>
+<th class="name_column" colspan="1">Tiempo de acceso a datos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="NFR-0008-description-md" class="markdown">El sistema deberá garantizar que las operaciones CRUD sobre la base de datos no tardarán más de 2 segundos en llevarse a cabo.</textarea>
+<div id="NFR-0008-description-html" class=""></div>
+<script>generate_markdown("NFR-0008-description");</script>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="NFR-0008-comments-md" class="markdown">Ninguno</textarea>
+<div id="NFR-0008-comments-html" class="remus_comments"></div>
+<script>generate_markdown("NFR-0008-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="NFR-0009">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0009</th>
+<th class="name_column" colspan="1">Tiempo de transición</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="NFR-0009-description-md" class="markdown">El sistema deberá garantizar que toda transición entre las diferentes vistas, se llevará a cabo en menos de 1.5 segundos.</textarea>
+<div id="NFR-0009-description-html" class=""></div>
+<script>generate_markdown("NFR-0009-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="NFR-0009-comments-md" class="markdown">Ninguno</textarea>
+<div id="NFR-0009-comments-html" class="remus_comments"></div>
+<script>generate_markdown("NFR-0009-comments");</script>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0044" class="section">6.4.5 Requisitos de portabilidad del sistema</h3>
+<div id="NFR-0010">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0010</th>
+<th class="name_column" colspan="1">Bajo acoplamiento</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="NFR-0010-description-md" class="markdown">El sistema deberá asegurar que la mayoría de sus componentes estén desarrollados de forma que, exista un bajo acoplamiento y una alta cohesión. Permitiendo el cambio de interfaces sin mayores problemas.</textarea>
+<div id="NFR-0010-description-html" class=""></div>
+<script>generate_markdown("NFR-0010-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="NFR-0010-comments-md" class="markdown">Ninguno</textarea>
+<div id="NFR-0010-comments-html" class="remus_comments"></div>
+<script>generate_markdown("NFR-0010-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="NFR-0011">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0011</th>
+<th class="name_column" colspan="1">Compatibilidad de sistemas operativos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="NFR-0011-description-md" class="markdown">El sistema deberá garantizar el correcto funcionamiento en Windows XP y sus versiones posteriores.</textarea>
+<div id="NFR-0011-description-html" class=""></div>
+<script>generate_markdown("NFR-0011-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="NFR-0011-comments-md" class="markdown">Ninguno</textarea>
+<div id="NFR-0011-comments-html" class="remus_comments"></div>
+<script>generate_markdown("NFR-0011-comments");</script>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0045" class="section">6.4.6 Requisitos de seguridad del sistema</h3>
+<div id="NFR-0012">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0012</th>
+<th class="name_column" colspan="1">Cifrado RSA</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="NFR-0012-description-md" class="markdown">El sistema deberá asegurar que las comunicaciones entre los servidores, la aplicación web y el <a href="#GLO-0005" class="rem_ref">cliente</a>, deben estar encriptadas utilizando el algoritmo RSA.</textarea>
+<div id="NFR-0012-description-html" class=""></div>
+<script>generate_markdown("NFR-0012-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="NFR-0012-comments-md" class="markdown">Ninguno</textarea>
+<div id="NFR-0012-comments-html" class="remus_comments"></div>
+<script>generate_markdown("NFR-0012-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="NFR-0013">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0013</th>
+<th class="name_column" colspan="1">Copia de seguridad</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="NFR-0013-description-md" class="markdown">El sistema deberá realizar guardados en la nube semanalmente. Evitando una mayor pérdida de información en caso de fallo.</textarea>
+<div id="NFR-0013-description-html" class=""></div>
+<script>generate_markdown("NFR-0013-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">puede esperar</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">pendiente de verificación</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="NFR-0013-comments-md" class="markdown">Ninguno</textarea>
+<div id="NFR-0013-comments-html" class="remus_comments"></div>
+<script>generate_markdown("NFR-0013-comments");</script>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0046" class="section">6.4.7 Otros requisitos no funcionales del sistema</h3>
 <h2 id="SEC-0047" class="section">6.5 Restricciones técnicas del sistema</h2>
 <h2 id="SEC-0048" class="section">6.6 Requisitos de integración del sistema</h2>
@@ -1257,7 +1817,7 @@
 <tr>
 <th>Resultados</th>
 <td colspan="1">
-<textarea id="MET-0001-results-md" class="markdown">Se llevó a cabo una primera toma de contacto con la recepcionista de la clínica, en la que hemos estado realizando preguntas sobre el número de trabajadores de la empresa y sus ocupaciones, las distintas actividades que se llevan a cabo y algunos problemas que tenían. Este primer acercamiento nos ha ayuda a conocer mejor la clínica</textarea>
+<textarea id="MET-0001-results-md" class="markdown">Se llevó a cabo una primera toma de contacto con la recepcionista de la clínica, en la que hemos estado realizando preguntas sobre el número de trabajadores de la empresa y sus ocupaciones, las distintas actividades que se llevan a cabo y algunos problemas que tenían. Este primer acercamiento nos ha ayuda a conocer mejor la clínica.</textarea>
 <div id="MET-0001-results-html" class=""></div>
 <script>generate_markdown("MET-0001-results");</script>
 </td>
