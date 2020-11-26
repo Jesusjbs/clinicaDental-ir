@@ -1954,7 +1954,7 @@
 </rem:time>
 <rem:place>On-line</rem:place>
 <rem:results>Se llevó a cabo una primera toma de contacto con la recepcionista de la clínica, en la que hemos estado realizando preguntas sobre el número de trabajadores de la empresa y sus ocupaciones, las distintas actividades que se llevan a cabo y algunos problemas que tenían. Este primer acercamiento nos ha ayuda a conocer mejor la clínica.</rem:results>
-	<rem:attenders stakeholders = "STK-0001 STK-0002 STK-0003 STK-0004 "/>
+	<rem:attenders stakeholders = "STK-0003 STK-0004 STK-0001 STK-0002 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0002">
 <rem:name>Acta de la 2ª reunión</rem:name>
@@ -1979,7 +1979,7 @@
 </rem:time>
 <rem:place>On-line</rem:place>
 <rem:results>En esta segunda toma de contacto, hemos estado comentando los problemas más frecuentes y que se pueden informatizar, como por ejemplo la venta de productos y las citas. Además, hemos indagado más detalladamente en los procesos de negocio que se realizan.<br/></rem:results>
-	<rem:attenders stakeholders = "STK-0001 STK-0002 STK-0003 STK-0004 "/>
+	<rem:attenders stakeholders = "STK-0003 STK-0004 STK-0001 STK-0002 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0003">
 <rem:name>Acta de la 3ª reunión</rem:name>
@@ -2004,7 +2004,7 @@
 </rem:time>
 <rem:place>On-line</rem:place>
 <rem:results>En esta ocasión, hemos estado recogiendo requisitos de información, reglas de negocio, y requisitos funcionales y no funcionales. Además, se han aclarado conceptos que no estaban totalmente definidos en un principio. Por último, hemos estado comentando los avances y las nuevas ideas del proyecto.</rem:results>
-	<rem:attenders stakeholders = "STK-0001 STK-0002 STK-0003 STK-0004 "/>
+	<rem:attenders stakeholders = "STK-0003 STK-0004 STK-0001 STK-0002 "/>
 </rem:meeting>
 </rem:section>
 <rem:section oid="SEC-0026">
@@ -2398,8 +2398,22 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>3.1 </rem:number>
+<rem:paragraph oid="PRG-0042">
+<rem:name>Párrafo 0</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>- &lt;h3&gt;Vista general:&lt;/h3&gt;</rem:text>
+</rem:paragraph>
 <rem:graphicFile oid="GRF-0017">
-<rem:name>Diagrama de clases</rem:name>
+<rem:name>Modelo conceptual (Vista General)</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2410,7 +2424,91 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[..\doc\images\Diagrama de clases.png]]></rem:fileName>
+<rem:fileName><![CDATA[..\doc\images\Diagrama conceptual.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0041">
+<rem:name>Párrafo 1</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>- &lt;h3&gt;Vista Proveedor:&lt;/h3&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0018">
+<rem:name>Modelo conceptual (Vista Proveedor)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[..\doc\images\Diagrama conceptual P.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0043">
+<rem:name>Párrafo 2</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>- &lt;h3&gt;Vista Consulta:&lt;/h3&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0019">
+<rem:name>Modelo conceptual (Vista Consulta)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[..\doc\images\Diagrama conceptual C.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0044">
+<rem:name>Párrafo 3</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>- &lt;h3&gt;Vista Venta:&lt;/h3&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0020">
+<rem:name>Modelo conceptual (Vista Venta)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[..\doc\images\Diagrama conceptual V.png]]></rem:fileName>
 </rem:graphicFile>
 </rem:section>
 <rem:section oid="SEC-0061">
@@ -2439,7 +2537,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>- &lt;b&gt;<rem:ref oid="GLO-0005">Cliente</rem:ref>:&lt;/b&gt; clase que generaliza a los empleados de la clínica. Sigue una generalización incompleta y disjunta y contiene el nombre, el apellido, el teléfono, el dni y el email.<br/><br/>- &lt;b&gt;Recepcionista:&lt;/b&gt; clase que representa a uno de los roles de empleado de la clínica. Obtiene sus atributos de la generalización.<br/><br/>- &lt;b&gt;Administrador de Ventas:&lt;/b&gt; clase que representa a uno de los roles de empleado de la clínica. Obtiene sus atributos de la generalización<br/><br/>- &lt;b&gt;Especialista:&lt;/b&gt; clase que representa al rol de odontólogo y al de médico a través de un enumerado &quot;Especialidad&quot;. Además de este atributo, contiene los de la generalización.<br/><br/>- &lt;b&gt;Proveedor:&lt;/b&gt; clase que representa a la empresa que suministra los productos a la clínica. Contiene el nombre, el teléfono, la dirección y el email.<br/><br/>- &lt;b&gt;Encargo:&lt;/b&gt; clase que representa una solicitud de productos al proveedor. Contiene las fechas de envío y recepción y un enumerate &quot;Estado&quot; que indica la situación de éste.<br/><br/>- &lt;b&gt;Factura:&lt;/b&gt; clase que generaliza a los diferentes tipos de facturas que se manejan en el dominio de la clínica. Es una generalización completa y disjunta y contiene un atributo importe.<br/><br/>- &lt;b&gt;Factura de Proveedor:&lt;/b&gt; clase que representa a la factura que se crea al realizar un encargo. Obtiene sus atributos de la generalización.<br/><br/>- &lt;b&gt;Líneas de Factura de Proveedor:&lt;/b&gt; clase que representa las distintas líneas que forman una factura de proveedor. Contiene la cantidad y el precio unitario de cada producto.<br/><br/>- &lt;b&gt;<rem:ref oid="GLO-0006">Usuario</rem:ref>:&lt;/b&gt; clase que representa el rol de persona que solicita un <rem:ref oid="GLO-0007">servicio</rem:ref> de la clínica o que realiza la adquisición de algún producto. Contiene el nombre, el apellido, el teléfono, el dni, el email, la dirección, si posee alguna alergia y las operaciones anteriores, en caso de que hubiera.<br/><br/>- &lt;b&gt;Pedido:&lt;/b&gt; clase que representa la adquisición por parte del <rem:ref oid="GLO-0006">usuario</rem:ref> de algún producto, a través de la web o de la tienda física. Contiene el enumerado &quot;Método&quot; que representa si es on-line o presencial y el enumerado &quot;Estado&quot; que indica su estado, valga la redundancia.<br/><br/>- &lt;b&gt;Factura de Pedido:&lt;/b&gt; clase que representa a la factura que se crea al realizar un pedido. Contiene el enumerado &quot;Pago&quot; que hace referencia a la forma en que se ha realiado el pago y además, obtiene sus atributos de la generalización.<br/><br/>- &lt;b&gt;Líneas de Factura de Pedido:&lt;/b&gt; clase que representa las distintas líneas que forman una factura de pedido. Contiene la cantidad de cada producto.<br/><br/>- &lt;b&gt;Producto:&lt;/b&gt; clase que representa tanto a los productos utilizados en las consultas como a los que se venden en la clínica. Ambos se solicitan a proveedores. Contiene el nombre, el número de muestras que hay en la clínica, la marca y el precio al que se vende, si es un producto para vender.<br/><br/>- &lt;b&gt;Cita:&lt;/b&gt; clase que representa a la solicitud de un <rem:ref oid="GLO-0006">usuario</rem:ref> para realizar una consulta. Contiene la fecha a la que se realizará, un concepto, si es urgente o no y el tiempo estimado para la consulta.<br/><br/>- &lt;b&gt;Consulta:&lt;/b&gt; clase que representa al <rem:ref oid="GLO-0007">servicio</rem:ref> que se realiza en la clínica a un <rem:ref oid="GLO-0006">usuario</rem:ref>, dejando de lado el <rem:ref oid="GLO-0007">servicio</rem:ref> de ventas. Contiene la duración y la información relativa al desarrollo de ésta.<br/><br/>- &lt;b&gt;Informe:&lt;/b&gt; clase que representa a la información detallada que recibirá el paciente tras una consulta. Contiene la descripción y las recomendaciones.<br/><br/>- &lt;b&gt;Factura de Consulta:&lt;/b&gt; clase que representa a la factura que se crea tras realizar una cosulta. Contiene el concepto de ésta y además, obtiene sus atributos de la generalización.</rem:text>
+<rem:text>- &lt;b&gt;Empleado:&lt;/b&gt; clase que generaliza a los empleados de la clínica. Sigue una generalización incompleta y disjunta y contiene el nombre, el apellido, el teléfono, el dni y el email.<br/><br/>- &lt;b&gt;Recepcionista:&lt;/b&gt; clase que representa a uno de los roles de empleado de la clínica. Obtiene sus atributos de la generalización.<br/><br/>- &lt;b&gt;Administrador de Ventas:&lt;/b&gt; clase que representa a uno de los roles de empleado de la clínica. Obtiene sus atributos de la generalización<br/><br/>- &lt;b&gt;Especialista:&lt;/b&gt; clase que representa al rol de odontólogo y al de médico a través de un enumerado &quot;Especialidad&quot;. Además de este atributo, contiene los de la generalización.<br/><br/>- &lt;b&gt;Proveedor:&lt;/b&gt; clase que representa a la empresa que suministra los productos a la clínica. Contiene el nombre, el teléfono, la dirección y el email.<br/><br/>- &lt;b&gt;Encargo:&lt;/b&gt; clase que representa una solicitud de productos al proveedor. Contiene las fechas de envío y recepción y un enumerate &quot;Estado&quot; que indica la situación de éste.<br/><br/>- &lt;b&gt;Factura:&lt;/b&gt; clase que generaliza a los diferentes tipos de facturas que se manejan en el dominio de la clínica. Es una generalización completa y disjunta y contiene un atributo importe.<br/><br/>- &lt;b&gt;Factura de Proveedor:&lt;/b&gt; clase que representa a la factura que se crea al realizar un encargo. Obtiene sus atributos de la generalización.<br/><br/>- &lt;b&gt;Líneas de Factura de Proveedor:&lt;/b&gt; clase que representa las distintas líneas que forman una factura de proveedor. Contiene la cantidad y el precio unitario de cada producto.<br/><br/>- &lt;b&gt;<rem:ref oid="GLO-0006">Usuario</rem:ref>:&lt;/b&gt; clase que representa el rol de persona que solicita un <rem:ref oid="GLO-0007">servicio</rem:ref> de la clínica o que realiza la adquisición de algún producto. Contiene el nombre, el apellido, el teléfono, el dni, el email, la dirección, si posee alguna alergia y las operaciones anteriores, en caso de que hubiera.<br/><br/>- &lt;b&gt;Pedido:&lt;/b&gt; clase que representa la adquisición por parte del <rem:ref oid="GLO-0006">usuario</rem:ref> de algún producto, a través de la web o de la tienda física. Contiene el enumerado &quot;Método&quot; que representa si es on-line o presencial y el enumerado &quot;Estado&quot; que indica su estado, valga la redundancia.<br/><br/>- &lt;b&gt;Factura de Pedido:&lt;/b&gt; clase que representa a la factura que se crea al realizar un pedido. Contiene el enumerado &quot;Pago&quot; que hace referencia a la forma en que se ha realiado el pago y además, obtiene sus atributos de la generalización.<br/><br/>- &lt;b&gt;Líneas de Factura de Pedido:&lt;/b&gt; clase que representa las distintas líneas que forman una factura de pedido. Contiene la cantidad de cada producto.<br/><br/>- &lt;b&gt;Producto:&lt;/b&gt; clase que representa tanto a los productos utilizados en las consultas como a los que se venden en la clínica. Ambos se solicitan a proveedores. Contiene el nombre, el número de muestras que hay en la clínica, la marca, el <rem:ref oid="GLO-0004">stock</rem:ref> y el precio al que se vende, si es un producto para vender.<br/><br/>- &lt;b&gt;Cita:&lt;/b&gt; clase que representa a la solicitud de un <rem:ref oid="GLO-0006">usuario</rem:ref> para realizar una consulta. Contiene la fecha a la que se realizará, un motivo, si es urgente o no, el tiempo estimado para la consulta y un enumerado &quot;Concepto&quot; que indica el tipo de consulta.<br/><br/>- &lt;b&gt;Consulta:&lt;/b&gt; clase que representa al <rem:ref oid="GLO-0007">servicio</rem:ref> que se realiza en la clínica a un <rem:ref oid="GLO-0006">usuario</rem:ref>, dejando de lado el <rem:ref oid="GLO-0007">servicio</rem:ref> de ventas. Contiene la duración y la información relativa al desarrollo de ésta.<br/><br/>- &lt;b&gt;Informe:&lt;/b&gt; clase que representa a la información detallada que recibirá el paciente tras una consulta. Contiene la descripción y las recomendaciones.<br/><br/>- &lt;b&gt;Factura de Consulta:&lt;/b&gt; clase que representa a la factura que se crea tras realizar una cosulta. Contiene el concepto de ésta y además, obtiene sus atributos de la generalización.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0062">
@@ -2681,6 +2779,21 @@
 <rem:comments>Ninguno</rem:comments>
 </rem:changeRequestsSpecification>
 <rem:predefinedValueTypes>
+<rem:predefinedValueType oid="PVT-0002">
+<rem:name>Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Real numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0001">
 <rem:name>Enum Literal</rem:name>
 <rem:version>
@@ -2696,8 +2809,8 @@
 <rem:description>Enumeration literals</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0006">
-<rem:name>Date</rem:name>
+<rem:predefinedValueType oid="PVT-0003">
+<rem:name>Integer</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2707,8 +2820,8 @@
 <rem:day>30</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Dates</rem:description>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Integer numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0004">
@@ -2741,6 +2854,21 @@
 <rem:description>Alphanumeric strings</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0006">
+<rem:name>Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Dates</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0007">
 <rem:name>Time</rem:name>
 <rem:version>
@@ -2756,67 +2884,37 @@
 <rem:description>Hour:minutes:seconds</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0002">
-<rem:name>Real</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Real numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0003">
-<rem:name>Integer</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Integer numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0005">
-<rem:name>verificado</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verificado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0003">
-<rem:name>en proceso de negociación</rem:name>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>no resuelto</rem:name>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
@@ -2830,58 +2928,10 @@
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0011">
@@ -2890,34 +2940,28 @@
 <![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
 <rem:name>Ambigüedad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0008">
@@ -2926,10 +2970,46 @@
 <![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0007">
 <rem:name>No implementabilidad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0013">
@@ -2938,62 +3018,77 @@
 <![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
-</rem:importanceValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>PD</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0003">
-<rem:name>media</rem:name>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
+</rem:importanceValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>media</rem:name>
+</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
 </rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>PD</rem:name>
-</rem:stabilityValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
-</rem:statusValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0005">
-<rem:name>validado</rem:name>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
 </rem:statusValue>
-<rem:terminationValue oid = "TEV-0003">
-<rem:name>queda sin efecto</rem:name>
-</rem:terminationValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
-</rem:timeUnitValue>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>queda sin efecto</rem:name>
+</rem:terminationValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>día(s)</rem:name>
@@ -3001,24 +3096,30 @@
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0010">
 <rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0012">
 <rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
+</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
 </rem:urgencyValue>
@@ -3027,9 +3128,6 @@
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presión</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
