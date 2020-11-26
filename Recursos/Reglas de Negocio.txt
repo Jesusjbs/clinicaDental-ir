@@ -1,0 +1,5 @@
+Encargo -> FechaEnvio < FechaRecepción -- Coherencia Estado y FechaRecepcion
+Pedido -> Método online, Estado obligatorio <-> Contrario
+LineaPedido -> Al crearla, cantidad <= stock de producto (Evitar stock negativo)
+PrecioVenta = precioUnitario + 0'2*precioUnitario
+No se puede pedir una cita con un mismo concepto si ya hay una pendiente(fecha posterior a la actual).
