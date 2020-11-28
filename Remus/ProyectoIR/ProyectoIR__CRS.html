@@ -1193,10 +1193,992 @@
 </tr>
 </table>
 </div>
+<div id="ACT-0007">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0007</th>
+<th class="name_column" colspan="1">Usuario</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="ACT-0007-actorRole-md" class="markdown">Este actor representa a la persona que recibe un <a href="#GLO-0007" class="rem_ref">servicio</a> por parte de la clínica o que adquiere un producto.</textarea>
+<div id="ACT-0007-actorRole-html" class=""></div>
+<script>generate_markdown("ACT-0007-actorRole");</script>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="ACT-0007-comments-md" class="markdown">Ninguno</textarea>
+<div id="ACT-0007-comments-html" class="remus_comments"></div>
+<script>generate_markdown("ACT-0007-comments");</script>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0034" class="section">6.2.3 Especificación de casos de uso del sistema</h3>
+<div id="UC-0001">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0001</th>
+<th class="name_column" colspan="2">Registrar un usuario </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="UC-0001--md" class="markdown">El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando <span class="triggering_event">el <a href="#GLO-0006" class="rem_ref">usuario</a> decida registrarse en la clínica</span>. </textarea>
+<div id="UC-0001--html" class=""></div>
+<script>generate_markdown("UC-0001-");</script>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<textarea id="UC-0001-precondition-md" class="markdown">El <a href="#GLO-0006" class="rem_ref">usuario</a> debe tener acceso a la página web o a la clínica.</textarea>
+<div id="UC-0001-precondition-html" class=""></div>
+<script>generate_markdown("UC-0001-precondition");</script>
+</td>
+</tr>
+<tr>
+<th rowspan="6">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0007">
+<th class="step_number">1</th>
+<td colspan="1"><textarea id="STP-0007--md" class="markdown">Si el <a href="#GLO-0006" class="rem_ref">usuario</a> decide acudir a la clínica en vez de acceder a la web,  el actor <a href="#ACT-0001">Recepcionista (ACT-0001)</a> solicita los datos al <a href="#GLO-0006" class="rem_ref">usuario</a> y realiza todo los pasos siguientes. </textarea>
+<div id="STP-0007--html" class=""></div>
+<script>generate_markdown("STP-0007-");</script>
+</td>
+</tr>
+<tr id="STP-0003">
+<th class="step_number">2</th>
+<td colspan="1">
+<textarea id="STP-0003--md" class="markdown"> El actor <a href="#ACT-0007">Usuario (ACT-0007)</a> accede al formulario de registro de <a href="#GLO-0006" class="rem_ref">usuario</a>. </textarea>
+<div id="STP-0003--html" class=""></div>
+<script>generate_markdown("STP-0003-");</script>
+</td>
+</tr>
+<tr id="STP-0004">
+<th class="step_number">3</th>
+<td colspan="1">
+<textarea id="STP-0004--md" class="markdown"> El actor <a href="#ACT-0007">Usuario (ACT-0007)</a> introduce los datos correspondientes en los campos requeridos. </textarea>
+<div id="STP-0004--html" class=""></div>
+<script>generate_markdown("STP-0004-");</script>
+</td>
+</tr>
+<tr id="STP-0005">
+<th class="step_number">4</th>
+<td colspan="1">
+<textarea id="STP-0005--md" class="markdown"> El actor <a href="#ACT-0007">Usuario (ACT-0007)</a> acepta los términos y condiciones y envía la solicitud de registro al sistema. </textarea>
+<div id="STP-0005--html" class=""></div>
+<script>generate_markdown("STP-0005-");</script>
+</td>
+</tr>
+<tr id="STP-0006">
+<th class="step_number">5</th>
+<td colspan="1">
+<textarea id="STP-0006--md" class="markdown"> El sistema recibe y almacena los datos correspondientes e informa al <a href="#GLO-0006" class="rem_ref">usuario</a> que se ha registrado correctamente. </textarea>
+<div id="STP-0006--html" class=""></div>
+<script>generate_markdown("STP-0006-");</script>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<textarea id="UC-0001-postcondition-md" class="markdown">El <a href="#GLO-0006" class="rem_ref">usuario</a> se registra correctamente en el sistema.</textarea>
+<div id="UC-0001-postcondition-html" class=""></div>
+<script>generate_markdown("UC-0001-postcondition");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="UC-0001-comments-md" class="markdown">Ninguno</textarea>
+<div id="UC-0001-comments-html" class="remus_comments"></div>
+<script>generate_markdown("UC-0001-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0002">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0002</th>
+<th class="name_column" colspan="2">Registrar una cita </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="UC-0002--md" class="markdown">El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando <span class="triggering_event">el <a href="#GLO-0006" class="rem_ref">usuario</a> decida solicitar una cita</span>. </textarea>
+<div id="UC-0002--html" class=""></div>
+<script>generate_markdown("UC-0002-");</script>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<textarea id="UC-0002-precondition-md" class="markdown">El <a href="#GLO-0006" class="rem_ref">usuario</a> está registrado y accede a la web, llama por teléfono o acude a la clínica.</textarea>
+<div id="UC-0002-precondition-html" class=""></div>
+<script>generate_markdown("UC-0002-precondition");</script>
+</td>
+</tr>
+<tr>
+<th rowspan="8">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0009">
+<th class="step_number">1</th>
+<td colspan="1"><textarea id="STP-0009--md" class="markdown">Si el <a href="#GLO-0006" class="rem_ref">usuario</a> decide acudir a la clínica o llamar por teléfono,  el actor <a href="#ACT-0001">Recepcionista (ACT-0001)</a> solicita el nombre y los apellidos al <a href="#GLO-0006" class="rem_ref">usuario</a> para proceder al registro de la cita. </textarea>
+<div id="STP-0009--html" class=""></div>
+<script>generate_markdown("STP-0009-");</script>
+</td>
+</tr>
+<tr id="STP-0011">
+<th class="step_number">2</th>
+<td colspan="1">
+<textarea id="STP-0011--md" class="markdown"> El actor <a href="#ACT-0001">Recepcionista (ACT-0001)</a> mira las fechas disponibles en el sistema y se las propone al <a href="#GLO-0006" class="rem_ref">usuario</a>. </textarea>
+<div id="STP-0011--html" class=""></div>
+<script>generate_markdown("STP-0011-");</script>
+</td>
+</tr>
+<tr id="STP-0012">
+<th class="step_number">3</th>
+<td colspan="1">
+<textarea id="STP-0012--md" class="markdown"> El actor <a href="#ACT-0001">Recepcionista (ACT-0001)</a> acuerda la fecha con el <a href="#GLO-0006" class="rem_ref">usuario</a> y le solicita los datos relativos a la cita para proceder con el registro de la misma. </textarea>
+<div id="STP-0012--html" class=""></div>
+<script>generate_markdown("STP-0012-");</script>
+</td>
+</tr>
+<tr id="STP-0013">
+<th class="step_number">4</th>
+<td colspan="1">
+<textarea id="STP-0013--md" class="markdown"> El actor <a href="#ACT-0001">Recepcionista (ACT-0001)</a> registra la cita en el sistema y le entrega un resguardo de la cita al <a href="#GLO-0006" class="rem_ref">usuario</a>. </textarea>
+<div id="STP-0013--html" class=""></div>
+<script>generate_markdown("STP-0013-");</script>
+</td>
+</tr>
+<tr id="STP-0014">
+<th class="step_number">5</th>
+<td colspan="1"><textarea id="STP-0014--md" class="markdown">Si por el contrario, el <a href="#GLO-0006" class="rem_ref">usuario</a> decide acceder a la web para solicitarla,  el actor <a href="#ACT-0007">Usuario (ACT-0007)</a> mira las fechas disponibles que le ofrece el sistema y selecciona una. </textarea>
+<div id="STP-0014--html" class=""></div>
+<script>generate_markdown("STP-0014-");</script>
+</td>
+</tr>
+<tr id="STP-0015">
+<th class="step_number">6</th>
+<td colspan="1">
+<textarea id="STP-0015--md" class="markdown"> El actor <a href="#ACT-0007">Usuario (ACT-0007)</a> introduce los datos correspondientes y solicita al sistema el registro de la cita. </textarea>
+<div id="STP-0015--html" class=""></div>
+<script>generate_markdown("STP-0015-");</script>
+</td>
+</tr>
+<tr id="STP-0020">
+<th class="step_number">7</th>
+<td colspan="1">
+<textarea id="STP-0020--md" class="markdown"> El sistema registra correctamente la cita y envía el e-mail al <a href="#GLO-0006" class="rem_ref">usuario</a>. </textarea>
+<div id="STP-0020--html" class=""></div>
+<script>generate_markdown("STP-0020-");</script>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<textarea id="UC-0002-postcondition-md" class="markdown">La cita se ha registrado correctamente.</textarea>
+<div id="UC-0002-postcondition-html" class=""></div>
+<script>generate_markdown("UC-0002-postcondition");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="UC-0002-comments-md" class="markdown">Ninguno</textarea>
+<div id="UC-0002-comments-html" class="remus_comments"></div>
+<script>generate_markdown("UC-0002-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0003">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0003</th>
+<th class="name_column" colspan="2">Solicitar un pedido al proveedor </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="UC-0003--md" class="markdown">El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando <span class="triggering_event">recibe un aviso del sistema indicando la falta de <a href="#GLO-0004" class="rem_ref">stock</a> en algún producto</span>. </textarea>
+<div id="UC-0003--html" class=""></div>
+<script>generate_markdown("UC-0003-");</script>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<textarea id="UC-0003-precondition-md" class="markdown">El administrador de venta decide solicitar productos al proveedor</textarea>
+<div id="UC-0003-precondition-html" class=""></div>
+<script>generate_markdown("UC-0003-precondition");</script>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0017">
+<th class="step_number">1</th>
+<td colspan="1">
+<textarea id="STP-0017--md" class="markdown"> El actor <a href="#ACT-0006">Administrador de ventas (ACT-0006)</a> revisa alertas pendientes referentes a productos con <a href="#GLO-0004" class="rem_ref">stock</a> bajo. </textarea>
+<div id="STP-0017--html" class=""></div>
+<script>generate_markdown("STP-0017-");</script>
+</td>
+</tr>
+<tr id="STP-0018">
+<th class="step_number">2</th>
+<td colspan="1">
+<textarea id="STP-0018--md" class="markdown"> El actor <a href="#ACT-0006">Administrador de ventas (ACT-0006)</a> indica al sistema la cantidad y los productos a solicitar. </textarea>
+<div id="STP-0018--html" class=""></div>
+<script>generate_markdown("STP-0018-");</script>
+</td>
+</tr>
+<tr id="STP-0019">
+<th class="step_number">3</th>
+<td colspan="1">
+<textarea id="STP-0019--md" class="markdown"> El sistema envía a los proveedores correspondientes la solicitud. </textarea>
+<div id="STP-0019--html" class=""></div>
+<script>generate_markdown("STP-0019-");</script>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<textarea id="UC-0003-postcondition-md" class="markdown">El proveedor recibe el encargo correctamente</textarea>
+<div id="UC-0003-postcondition-html" class=""></div>
+<script>generate_markdown("UC-0003-postcondition");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">validado</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="UC-0003-comments-md" class="markdown">Ninguno</textarea>
+<div id="UC-0003-comments-html" class="remus_comments"></div>
+<script>generate_markdown("UC-0003-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0004">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0004</th>
+<th class="name_column" colspan="2">Consultar citas próximas </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="UC-0004--md" class="markdown">El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando <span class="triggering_event">la recepcionista se disponga a observar las próximas citas para la organización de la clínica. Para ello accede a la vista de próximas citas en el sistema</span>. </textarea>
+<div id="UC-0004--html" class=""></div>
+<script>generate_markdown("UC-0004-");</script>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<textarea id="UC-0004-precondition-md" class="markdown">Existen citas próximas en el sistema</textarea>
+<div id="UC-0004-precondition-html" class=""></div>
+<script>generate_markdown("UC-0004-precondition");</script>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<textarea id="UC-0004-postcondition-md" class="markdown">Observa de forma satisfactoria las citas próximas</textarea>
+<div id="UC-0004-postcondition-html" class=""></div>
+<script>generate_markdown("UC-0004-postcondition");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="UC-0004-comments-md" class="markdown">Ninguno</textarea>
+<div id="UC-0004-comments-html" class="remus_comments"></div>
+<script>generate_markdown("UC-0004-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0005">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0005</th>
+<th class="name_column" colspan="2">Enviar facturas </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="UC-0005--md" class="markdown">El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando <span class="triggering_event">el sistema registra un pedido on-line o la recepcionista registra una consulta, el sistema envía de forma automática un correo al <a href="#GLO-0006" class="rem_ref">usuario</a> con la factura correspondiente</span>. </textarea>
+<div id="UC-0005--html" class=""></div>
+<script>generate_markdown("UC-0005-");</script>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<textarea id="UC-0005-precondition-md" class="markdown">El <a href="#GLO-0006" class="rem_ref">usuario</a> ha realizado una compra on-line o ha terminado una consulta y ha decidido recibirla por correo.</textarea>
+<div id="UC-0005-precondition-html" class=""></div>
+<script>generate_markdown("UC-0005-precondition");</script>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<textarea id="UC-0005-postcondition-md" class="markdown">El <a href="#GLO-0006" class="rem_ref">usuario</a> recibe en el correo la factura de forma satisfactoria.</textarea>
+<div id="UC-0005-postcondition-html" class=""></div>
+<script>generate_markdown("UC-0005-postcondition");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="UC-0005-comments-md" class="markdown">Ninguno</textarea>
+<div id="UC-0005-comments-html" class="remus_comments"></div>
+<script>generate_markdown("UC-0005-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0006">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0006</th>
+<th class="name_column" colspan="2">Mostrar productos </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="UC-0006--md" class="markdown">El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando <span class="triggering_event">el <a href="#GLO-0006" class="rem_ref">usuario</a> o  el administrador de ventas decidan visualizar el listado de productos. Para ello accederán a la pestaña de productos a través de la web</span>. </textarea>
+<div id="UC-0006--html" class=""></div>
+<script>generate_markdown("UC-0006-");</script>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<textarea id="UC-0006-precondition-md" class="markdown">El <a href="#GLO-0006" class="rem_ref">usuario</a> ha accedido a la web para mirar algún producto o el administrador de ventas necesita consultar algún producto.</textarea>
+<div id="UC-0006-precondition-html" class=""></div>
+<script>generate_markdown("UC-0006-precondition");</script>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<textarea id="UC-0006-postcondition-md" class="markdown">Se visualiza de forma correcta los productos.</textarea>
+<div id="UC-0006-postcondition-html" class=""></div>
+<script>generate_markdown("UC-0006-postcondition");</script>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="UC-0006-comments-md" class="markdown">Ninguno</textarea>
+<div id="UC-0006-comments-html" class="remus_comments"></div>
+<script>generate_markdown("UC-0006-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0007">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0007</th>
+<th class="name_column" colspan="2">Realizar pedido </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="UC-0007--md" class="markdown">El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando <span class="triggering_event">cuando el <a href="#GLO-0006" class="rem_ref">usuario</a> realice la adquisición de algún producto de la clínica a través de la web o en la clínica</span>. </textarea>
+<div id="UC-0007--html" class=""></div>
+<script>generate_markdown("UC-0007-");</script>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<textarea id="UC-0007-precondition-md" class="markdown">El <a href="#GLO-0006" class="rem_ref">usuario</a> necesita un producto de la clínica.</textarea>
+<div id="UC-0007-precondition-html" class=""></div>
+<script>generate_markdown("UC-0007-precondition");</script>
+</td>
+</tr>
+<tr>
+<th rowspan="8">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0021">
+<th class="step_number">1</th>
+<td colspan="1"><textarea id="STP-0021--md" class="markdown">Si el <a href="#GLO-0006" class="rem_ref">usuario</a> solicita el pedido a través de la web,  el actor <a href="#ACT-0007">Usuario (ACT-0007)</a> elige los productos y selecciona las cantidades. </textarea>
+<div id="STP-0021--html" class=""></div>
+<script>generate_markdown("STP-0021-");</script>
+</td>
+</tr>
+<tr id="STP-0023">
+<th class="step_number">2</th>
+<td colspan="1">
+<textarea id="STP-0023--md" class="markdown"> El actor <a href="#ACT-0007">Usuario (ACT-0007)</a> Realiza la compra de los productos. </textarea>
+<div id="STP-0023--html" class=""></div>
+<script>generate_markdown("STP-0023-");</script>
+</td>
+</tr>
+<tr id="STP-0024">
+<th class="step_number">3</th>
+<td colspan="1"><textarea id="STP-0024--md" class="markdown">Si por el contrario, el <a href="#GLO-0006" class="rem_ref">usuario</a> acude a la clínica, ,  el actor <a href="#ACT-0007">Usuario (ACT-0007)</a> solicita al administrador de ventas los productos deseados. </textarea>
+<div id="STP-0024--html" class=""></div>
+<script>generate_markdown("STP-0024-");</script>
+</td>
+</tr>
+<tr id="STP-0026">
+<th class="step_number">4</th>
+<td colspan="1"><textarea id="STP-0026--md" class="markdown">Si el <a href="#GLO-0006" class="rem_ref">usuario</a> desea una muestra, ,  el actor <a href="#ACT-0007">Usuario (ACT-0007)</a> solicita al administrador de ventas las muestras. </textarea>
+<div id="STP-0026--html" class=""></div>
+<script>generate_markdown("STP-0026-");</script>
+</td>
+</tr>
+<tr id="STP-0027">
+<th class="step_number">5</th>
+<td colspan="1">
+<textarea id="STP-0027--md" class="markdown"> El actor <a href="#ACT-0006">Administrador de ventas (ACT-0006)</a> entrega las muestras si las hubiera y los productos deseados. </textarea>
+<div id="STP-0027--html" class=""></div>
+<script>generate_markdown("STP-0027-");</script>
+</td>
+</tr>
+<tr id="STP-0028">
+<th class="step_number">6</th>
+<td colspan="1">
+<textarea id="STP-0028--md" class="markdown"> El actor <a href="#ACT-0006">Administrador de ventas (ACT-0006)</a> registra en el sistema la venta realizada y le entrega la factura. </textarea>
+<div id="STP-0028--html" class=""></div>
+<script>generate_markdown("STP-0028-");</script>
+</td>
+</tr>
+<tr id="STP-0029">
+<th class="step_number">7</th>
+<td colspan="1">
+<textarea id="STP-0029--md" class="markdown"> El sistema disminuye el <a href="#GLO-0004" class="rem_ref">stock</a> de los productos adquiridos por el <a href="#GLO-0006" class="rem_ref">usuario</a>. </textarea>
+<div id="STP-0029--html" class=""></div>
+<script>generate_markdown("STP-0029-");</script>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<textarea id="UC-0007-postcondition-md" class="markdown">El <a href="#GLO-0006" class="rem_ref">usuario</a> realiza el pedido correctamente</textarea>
+<div id="UC-0007-postcondition-html" class=""></div>
+<script>generate_markdown("UC-0007-postcondition");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">validado</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="UC-0007-comments-md" class="markdown">Ninguno</textarea>
+<div id="UC-0007-comments-html" class="remus_comments"></div>
+<script>generate_markdown("UC-0007-comments");</script>
+</td>
+</tr>
+</table>
+</div>
 <h2 id="SEC-0035" class="section">6.3 Requisitos funcionales del sistema</h2>
 <h3 id="SEC-0036" class="section">6.3.1 Requisitos de infomación del sistema</h3>
 <h3 id="SEC-0037" class="section">6.3.2 Requisitos de reglas de negocio del sistema</h3>
+<div id="CRQ-0001">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0001</th>
+<th class="name_column" colspan="1">Coherencia entre Estado y fecha de recepcion</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="CRQ-0001-description-md" class="markdown">El sistema deberá respetar la siguiente regla de negocio o restricción: no será posible introducir una fecha de recepción si el Estado no está "Finalizado".</textarea>
+<div id="CRQ-0001-description-html" class=""></div>
+<script>generate_markdown("CRQ-0001-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="CRQ-0001-comments-md" class="markdown">Ninguno</textarea>
+<div id="CRQ-0001-comments-html" class="remus_comments"></div>
+<script>generate_markdown("CRQ-0001-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0002">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0002</th>
+<th class="name_column" colspan="1">Coherencia de fechas en un encargo</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="CRQ-0002-description-md" class="markdown">El sistema deberá respetar la siguiente regla de negocio o restricción: la fecha de recepción deberá ser anterior a la fecha de envío.</textarea>
+<div id="CRQ-0002-description-html" class=""></div>
+<script>generate_markdown("CRQ-0002-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="CRQ-0002-comments-md" class="markdown">Ninguno</textarea>
+<div id="CRQ-0002-comments-html" class="remus_comments"></div>
+<script>generate_markdown("CRQ-0002-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0003">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0003</th>
+<th class="name_column" colspan="1">Incluir un Estado si el Método es on-line</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="CRQ-0003-description-md" class="markdown">El sistema deberá respetar la siguiente regla de negocio o restricción: si el Método de un pedido es "On-line", entonces, el Estado deberá ser obligatorio ponerlo.</textarea>
+<div id="CRQ-0003-description-html" class=""></div>
+<script>generate_markdown("CRQ-0003-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">validado</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="CRQ-0003-comments-md" class="markdown">Ninguno</textarea>
+<div id="CRQ-0003-comments-html" class="remus_comments"></div>
+<script>generate_markdown("CRQ-0003-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0004">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0004</th>
+<th class="name_column" colspan="1">Evitar stock negativo</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="CRQ-0004-description-md" class="markdown">El sistema deberá respetar la siguiente regla de negocio o restricción: un <a href="#GLO-0006" class="rem_ref">usuario</a> no podrá añadir al carrito una cantidad mayor de un producto de la disponible en <a href="#GLO-0004" class="rem_ref">stock</a>.</textarea>
+<div id="CRQ-0004-description-html" class=""></div>
+<script>generate_markdown("CRQ-0004-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="CRQ-0004-comments-md" class="markdown">Ninguno</textarea>
+<div id="CRQ-0004-comments-html" class="remus_comments"></div>
+<script>generate_markdown("CRQ-0004-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0005">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0005</th>
+<th class="name_column" colspan="1">Precio de venta de un artículo</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="CRQ-0005-description-md" class="markdown">El sistema deberá respetar la siguiente regla de negocio o restricción: el precio de venta de un artículo, deberá ser igual al precio de compra al proveedor de éste, más un 20%.</textarea>
+<div id="CRQ-0005-description-html" class=""></div>
+<script>generate_markdown("CRQ-0005-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="CRQ-0005-comments-md" class="markdown">Ninguno</textarea>
+<div id="CRQ-0005-comments-html" class="remus_comments"></div>
+<script>generate_markdown("CRQ-0005-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0006">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0006</th>
+<th class="name_column" colspan="1">Límite de citas</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="CRQ-0006-description-md" class="markdown">El sistema deberá respetar la siguiente regla de negocio o restricción: un <a href="#GLO-0006" class="rem_ref">usuario</a> no podrá pedir una cita con el mismo concepto si ya existe una con fecha posterior a la de hoy.</textarea>
+<div id="CRQ-0006-description-html" class=""></div>
+<script>generate_markdown("CRQ-0006-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">validado</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="CRQ-0006-comments-md" class="markdown">Ninguno</textarea>
+<div id="CRQ-0006-comments-html" class="remus_comments"></div>
+<script>generate_markdown("CRQ-0006-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0007">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0007</th>
+<th class="name_column" colspan="1">Adecuación de especialista que antiende una consulta</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="CRQ-0007-description-md" class="markdown">El sistema deberá respetar la siguiente regla de negocio o restricción:  dependiendo del Concepto de la cita, sea únicamente se podrá asignar un especialista cuya Especialidad sea la más conveniente.</textarea>
+<div id="CRQ-0007-description-html" class=""></div>
+<script>generate_markdown("CRQ-0007-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="CRQ-0007-comments-md" class="markdown">Ninguno</textarea>
+<div id="CRQ-0007-comments-html" class="remus_comments"></div>
+<script>generate_markdown("CRQ-0007-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0008">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0008</th>
+<th class="name_column" colspan="1">Adecuamiento de los gastos de envío</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (28/11/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="CRQ-0008-description-md" class="markdown">El sistema deberá respetar la siguiente regla de negocio o restricción: si el importe final de un pedido es inferior a los 20 euros, los gastos de envío serán de 4,99 euros. En caso de que el importe sea superior o de que la compra se lleve a cabo en el local, serán gratuitos.</textarea>
+<div id="CRQ-0008-description-html" class=""></div>
+<script>generate_markdown("CRQ-0008-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">puede esperar</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">validado</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="CRQ-0008-comments-md" class="markdown">Ninguno</textarea>
+<div id="CRQ-0008-comments-html" class="remus_comments"></div>
+<script>generate_markdown("CRQ-0008-comments");</script>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0038" class="section">6.3.3 Requisitos de conducta del sistema</h3>
 <h2 id="SEC-0039" class="section">6.4 Requisitos no funcionales del sistema</h2>
 <h3 id="SEC-0040" class="section">6.4.1 Requisitos de fiabilidad del sistema</h3>
