@@ -1751,7 +1751,7 @@
 <tr id="STP-0023">
 <th class="step_number">2</th>
 <td colspan="1">
-<textarea id="STP-0023--md" class="markdown"> El actor <a href="#ACT-0007">Usuario (ACT-0007)</a> Realiza la compra de los productos. </textarea>
+<textarea id="STP-0023--md" class="markdown"> El actor <a href="#ACT-0007">Usuario (ACT-0007)</a> realiza la compra de los productos. </textarea>
 <div id="STP-0023--html" class=""></div>
 <script>generate_markdown("STP-0023-");</script>
 </td>
@@ -2182,8 +2182,991 @@
 </tr>
 </table>
 </div>
+<div id="UC-0013">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0013</th>
+<th class="name_column" colspan="2">Mostrar historial del paciente </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (02/12/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="UC-0013--md" class="markdown">El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando <span class="triggering_event">el médico/ondontólogo se predispone a realizar una consulta o cuando lo estime oportuno</span>. </textarea>
+<div id="UC-0013--html" class=""></div>
+<script>generate_markdown("UC-0013-");</script>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<textarea id="UC-0013-precondition-md" class="markdown">El <a href="#GLO-0006" class="rem_ref">usuario</a> se encuentre registrado en el sistema y posea algún dato en el historial médico.</textarea>
+<div id="UC-0013-precondition-html" class=""></div>
+<script>generate_markdown("UC-0013-precondition");</script>
+</td>
+</tr>
+<tr>
+<th rowspan="5">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0036">
+<th class="step_number">1</th>
+<td colspan="1">
+<textarea id="STP-0036--md" class="markdown"> El actor <a href="#ACT-0002">Ortodoncista (ACT-0002)</a> realiza la búsqueda de un <a href="#GLO-0006" class="rem_ref">usuario</a> en el sistema a través de uno o varios datos identificativos. </textarea>
+<div id="STP-0036--html" class=""></div>
+<script>generate_markdown("STP-0036-");</script>
+</td>
+</tr>
+<tr id="STP-0037">
+<th class="step_number">2</th>
+<td colspan="1">
+<textarea id="STP-0037--md" class="markdown"> El sistema muestra una vista con todos los pacientes que cumplan los criterios de búsqueda. </textarea>
+<div id="STP-0037--html" class=""></div>
+<script>generate_markdown("STP-0037-");</script>
+</td>
+</tr>
+<tr id="STP-0038">
+<th class="step_number">3</th>
+<td colspan="1">
+<textarea id="STP-0038--md" class="markdown"> El actor <a href="#ACT-0002">Ortodoncista (ACT-0002)</a> elige el <a href="#GLO-0006" class="rem_ref">usuario</a> que busca, accediendo a la vista detallada de éste. </textarea>
+<div id="STP-0038--html" class=""></div>
+<script>generate_markdown("STP-0038-");</script>
+</td>
+</tr>
+<tr id="STP-0039">
+<th class="step_number">4</th>
+<td colspan="1">
+<textarea id="STP-0039--md" class="markdown"> El sistema muestra la vista detallada con los datos propios del <a href="#GLO-0006" class="rem_ref">usuario</a>, asi como un historial con todas las consultas anteriores. </textarea>
+<div id="STP-0039--html" class=""></div>
+<script>generate_markdown("STP-0039-");</script>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<textarea id="UC-0013-postcondition-md" class="markdown">El historial del paciente indicado se muestra de forma correcta.</textarea>
+<div id="UC-0013-postcondition-html" class=""></div>
+<script>generate_markdown("UC-0013-postcondition");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="UC-0013-comments-md" class="markdown">Ninguno</textarea>
+<div id="UC-0013-comments-html" class="remus_comments"></div>
+<script>generate_markdown("UC-0013-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0014">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0014</th>
+<th class="name_column" colspan="2">Enviar informes </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (02/12/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="UC-0014--md" class="markdown">El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando <span class="triggering_event">el médico/ortodoncista haya rellenado el informe en el sistema, se enviará de forma automática un correo electrónico al paciente tratado</span>. </textarea>
+<div id="UC-0014--html" class=""></div>
+<script>generate_markdown("UC-0014-");</script>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<textarea id="UC-0014-precondition-md" class="markdown">La consulta haya finalizado y exista un informe sobre la misma.</textarea>
+<div id="UC-0014-precondition-html" class=""></div>
+<script>generate_markdown("UC-0014-precondition");</script>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<textarea id="UC-0014-postcondition-md" class="markdown">El <a href="#GLO-0006" class="rem_ref">usuario</a> recibe de forma satisfactoria el informe por correo electrónico.</textarea>
+<div id="UC-0014-postcondition-html" class=""></div>
+<script>generate_markdown("UC-0014-postcondition");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">puede esperar</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">pendiente de validación</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="UC-0014-comments-md" class="markdown">Ninguno</textarea>
+<div id="UC-0014-comments-html" class="remus_comments"></div>
+<script>generate_markdown("UC-0014-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0015">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0015</th>
+<th class="name_column" colspan="2">Añadir datos al historial médico </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (02/12/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="UC-0015--md" class="markdown">El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando <span class="triggering_event">el médico/ortodoncista quiera añadir un nuevo registro en el historial médico del paciente</span>. </textarea>
+<div id="UC-0015--html" class=""></div>
+<script>generate_markdown("UC-0015-");</script>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<textarea id="UC-0015-precondition-md" class="markdown">Se ha realizado una nueva consulta y el médico/ortodoncista necesita añadir datos al historial del paciente.</textarea>
+<div id="UC-0015-precondition-html" class=""></div>
+<script>generate_markdown("UC-0015-precondition");</script>
+</td>
+</tr>
+<tr>
+<th rowspan="6">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0040">
+<th class="step_number">1</th>
+<td colspan="1">
+<textarea id="STP-0040--md" class="markdown"> El actor <a href="#ACT-0002">Ortodoncista (ACT-0002)</a> realiza la búsqueda del paciente en cuestión, introduciendo uno o varios datos identificativos. </textarea>
+<div id="STP-0040--html" class=""></div>
+<script>generate_markdown("STP-0040-");</script>
+</td>
+</tr>
+<tr id="STP-0041">
+<th class="step_number">2</th>
+<td colspan="1">
+<textarea id="STP-0041--md" class="markdown"> El actor <a href="#ACT-0002">Ortodoncista (ACT-0002)</a> selecciona al paciente buscado, accediendo a la vista detallada. </textarea>
+<div id="STP-0041--html" class=""></div>
+<script>generate_markdown("STP-0041-");</script>
+</td>
+</tr>
+<tr id="STP-0042">
+<th class="step_number">3</th>
+<td colspan="1">
+<textarea id="STP-0042--md" class="markdown"> El actor <a href="#ACT-0002">Ortodoncista (ACT-0002)</a> pulsa sobre el botón de añadir nueva información, accediendo al formulario para añadir dicha información. </textarea>
+<div id="STP-0042--html" class=""></div>
+<script>generate_markdown("STP-0042-");</script>
+</td>
+</tr>
+<tr id="STP-0043">
+<th class="step_number">4</th>
+<td colspan="1">
+<textarea id="STP-0043--md" class="markdown"> El actor <a href="#ACT-0002">Ortodoncista (ACT-0002)</a> rellena los datos correspondientes a la consulta y pulsa sobre guardar. </textarea>
+<div id="STP-0043--html" class=""></div>
+<script>generate_markdown("STP-0043-");</script>
+</td>
+</tr>
+<tr id="STP-0044">
+<th class="step_number">5</th>
+<td colspan="1">
+<textarea id="STP-0044--md" class="markdown"> El sistema hace efectiva la petición y lo añade al historial del paciente. </textarea>
+<div id="STP-0044--html" class=""></div>
+<script>generate_markdown("STP-0044-");</script>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<textarea id="UC-0015-postcondition-md" class="markdown">Se almacenan de forma correcta los datos introducidos en el historial del paciente.</textarea>
+<div id="UC-0015-postcondition-html" class=""></div>
+<script>generate_markdown("UC-0015-postcondition");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">validado</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="UC-0015-comments-md" class="markdown">Ninguno</textarea>
+<div id="UC-0015-comments-html" class="remus_comments"></div>
+<script>generate_markdown("UC-0015-comments");</script>
+</td>
+</tr>
+</table>
+</div>
 <h2 id="SEC-0035" class="section">6.3 Requisitos funcionales del sistema</h2>
 <h3 id="SEC-0036" class="section">6.3.1 Requisitos de infomación del sistema</h3>
+<div id="IRQ-0001">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0001</th>
+<th class="name_column" colspan="2">Información sobre los empleados</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (02/12/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="IRQ-0001-relevantConcept-md" class="markdown">El sistema deberá almacenar la información correspondiente a los empleados de la clínica. Entre ellos se incluyen recepcionista, administrador de ventas y especialista. En concreto:</textarea>
+<div id="IRQ-0001-relevantConcept-html" class="relevant_concept"></div>
+<script>generate_markdown("IRQ-0001-relevantConcept");</script>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0046">
+<textarea id="DAT-0046-description-md" class="markdown">Nombre</textarea>
+<span id="DAT-0046-description-html"></span>
+<script>generate_markdown("DAT-0046-description",true);</script>
+</li>
+<li id="DAT-0047">
+<textarea id="DAT-0047-description-md" class="markdown">Apellido</textarea>
+<span id="DAT-0047-description-html"></span>
+<script>generate_markdown("DAT-0047-description",true);</script>
+</li>
+<li id="DAT-0048">
+<textarea id="DAT-0048-description-md" class="markdown">Teléfono</textarea>
+<span id="DAT-0048-description-html"></span>
+<script>generate_markdown("DAT-0048-description",true);</script>
+</li>
+<li id="DAT-0049">
+<textarea id="DAT-0049-description-md" class="markdown">DNI</textarea>
+<span id="DAT-0049-description-html"></span>
+<script>generate_markdown("DAT-0049-description",true);</script>
+</li>
+<li id="DAT-0050">
+<textarea id="DAT-0050-description-md" class="markdown">Email</textarea>
+<span id="DAT-0050-description-html"></span>
+<script>generate_markdown("DAT-0050-description",true);</script>
+</li>
+<li id="DAT-0051">
+<textarea id="DAT-0051-description-md" class="markdown">Especialidad (solo aplica a especialistas): médico, ortodoncista</textarea>
+<span id="DAT-0051-description-html"></span>
+<script>generate_markdown("DAT-0051-description",true);</script>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="IRQ-0001-comments-md" class="markdown">Ninguno</textarea>
+<div id="IRQ-0001-comments-html" class="remus_comments"></div>
+<script>generate_markdown("IRQ-0001-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0002">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0002</th>
+<th class="name_column" colspan="2">Información sobre los usuarios</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (02/12/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="IRQ-0002-relevantConcept-md" class="markdown">El sistema deberá almacenar la información correspondiente a los usuarios de la clínica. En concreto:</textarea>
+<div id="IRQ-0002-relevantConcept-html" class="relevant_concept"></div>
+<script>generate_markdown("IRQ-0002-relevantConcept");</script>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0052">
+<textarea id="DAT-0052-description-md" class="markdown">Nombre</textarea>
+<span id="DAT-0052-description-html"></span>
+<script>generate_markdown("DAT-0052-description",true);</script>
+</li>
+<li id="DAT-0053">
+<textarea id="DAT-0053-description-md" class="markdown">Apellido</textarea>
+<span id="DAT-0053-description-html"></span>
+<script>generate_markdown("DAT-0053-description",true);</script>
+</li>
+<li id="DAT-0054">
+<textarea id="DAT-0054-description-md" class="markdown">Teléfono</textarea>
+<span id="DAT-0054-description-html"></span>
+<script>generate_markdown("DAT-0054-description",true);</script>
+</li>
+<li id="DAT-0055">
+<textarea id="DAT-0055-description-md" class="markdown">DNI</textarea>
+<span id="DAT-0055-description-html"></span>
+<script>generate_markdown("DAT-0055-description",true);</script>
+</li>
+<li id="DAT-0056">
+<textarea id="DAT-0056-description-md" class="markdown">Email</textarea>
+<span id="DAT-0056-description-html"></span>
+<script>generate_markdown("DAT-0056-description",true);</script>
+</li>
+<li id="DAT-0057">
+<textarea id="DAT-0057-description-md" class="markdown">Dirección</textarea>
+<span id="DAT-0057-description-html"></span>
+<script>generate_markdown("DAT-0057-description",true);</script>
+</li>
+<li id="DAT-0058">
+<textarea id="DAT-0058-description-md" class="markdown">Alergias</textarea>
+<span id="DAT-0058-description-html"></span>
+<script>generate_markdown("DAT-0058-description",true);</script>
+</li>
+<li id="DAT-0059">
+<textarea id="DAT-0059-description-md" class="markdown">Operaciones</textarea>
+<span id="DAT-0059-description-html"></span>
+<script>generate_markdown("DAT-0059-description",true);</script>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="IRQ-0002-comments-md" class="markdown">Ninguno</textarea>
+<div id="IRQ-0002-comments-html" class="remus_comments"></div>
+<script>generate_markdown("IRQ-0002-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0003">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0003</th>
+<th class="name_column" colspan="2">Información sobre las citas</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (02/12/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="IRQ-0003-relevantConcept-md" class="markdown">El sistema deberá almacenar la información correspondiente a las citas que se produzcan en la clínica. En concreto:</textarea>
+<div id="IRQ-0003-relevantConcept-html" class="relevant_concept"></div>
+<script>generate_markdown("IRQ-0003-relevantConcept");</script>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0060">
+<textarea id="DAT-0060-description-md" class="markdown">Fecha</textarea>
+<span id="DAT-0060-description-html"></span>
+<script>generate_markdown("DAT-0060-description",true);</script>
+</li>
+<li id="DAT-0061">
+<textarea id="DAT-0061-description-md" class="markdown">Concepto: depilación, <a href="#GLO-0017" class="rem_ref">bráckets</a>, revisión, muela infectada, extracción dental, blanqueamiento, limpieza dental, otro</textarea>
+<span id="DAT-0061-description-html"></span>
+<script>generate_markdown("DAT-0061-description",true);</script>
+</li>
+<li id="DAT-0062">
+<textarea id="DAT-0062-description-md" class="markdown">Motivo</textarea>
+<span id="DAT-0062-description-html"></span>
+<script>generate_markdown("DAT-0062-description",true);</script>
+</li>
+<li id="DAT-0063">
+<textarea id="DAT-0063-description-md" class="markdown">Urgencia</textarea>
+<span id="DAT-0063-description-html"></span>
+<script>generate_markdown("DAT-0063-description",true);</script>
+</li>
+<li id="DAT-0064">
+<textarea id="DAT-0064-description-md" class="markdown">Tiempo estimado</textarea>
+<span id="DAT-0064-description-html"></span>
+<script>generate_markdown("DAT-0064-description",true);</script>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">validado</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="IRQ-0003-comments-md" class="markdown">Ninguno</textarea>
+<div id="IRQ-0003-comments-html" class="remus_comments"></div>
+<script>generate_markdown("IRQ-0003-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0004">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0004</th>
+<th class="name_column" colspan="2">Información sobre las consultas</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (02/12/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="IRQ-0004-relevantConcept-md" class="markdown">El sistema deberá almacenar la información correspondiente a las consultas que se realizan en la clínica. En concreto:</textarea>
+<div id="IRQ-0004-relevantConcept-html" class="relevant_concept"></div>
+<script>generate_markdown("IRQ-0004-relevantConcept");</script>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0066">
+<textarea id="DAT-0066-description-md" class="markdown">Duración</textarea>
+<span id="DAT-0066-description-html"></span>
+<script>generate_markdown("DAT-0066-description",true);</script>
+</li>
+<li id="DAT-0067">
+<textarea id="DAT-0067-description-md" class="markdown">Desarrollo</textarea>
+<span id="DAT-0067-description-html"></span>
+<script>generate_markdown("DAT-0067-description",true);</script>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">validado</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="IRQ-0004-comments-md" class="markdown">Ninguno</textarea>
+<div id="IRQ-0004-comments-html" class="remus_comments"></div>
+<script>generate_markdown("IRQ-0004-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0005">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0005</th>
+<th class="name_column" colspan="2">Información sobre los informes de las consultas</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (02/12/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="IRQ-0005-relevantConcept-md" class="markdown">El sistema deberá almacenar la información correspondiente a los informes generados en las consultas. En concreto:</textarea>
+<div id="IRQ-0005-relevantConcept-html" class="relevant_concept"></div>
+<script>generate_markdown("IRQ-0005-relevantConcept");</script>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0071">
+<textarea id="DAT-0071-description-md" class="markdown">Descripción</textarea>
+<span id="DAT-0071-description-html"></span>
+<script>generate_markdown("DAT-0071-description",true);</script>
+</li>
+<li id="DAT-0072">
+<textarea id="DAT-0072-description-md" class="markdown">Recomendaciones</textarea>
+<span id="DAT-0072-description-html"></span>
+<script>generate_markdown("DAT-0072-description",true);</script>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">validado</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="IRQ-0005-comments-md" class="markdown">Ninguno</textarea>
+<div id="IRQ-0005-comments-html" class="remus_comments"></div>
+<script>generate_markdown("IRQ-0005-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0006">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0006</th>
+<th class="name_column" colspan="2">Información sobre los productos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (02/12/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="IRQ-0006-relevantConcept-md" class="markdown">El sistema deberá almacenar la información correspondiente a los productos que se venden y con los que trabaja la clínica. En concreto:</textarea>
+<div id="IRQ-0006-relevantConcept-html" class="relevant_concept"></div>
+<script>generate_markdown("IRQ-0006-relevantConcept");</script>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0074">
+<textarea id="DAT-0074-description-md" class="markdown">Nombre</textarea>
+<span id="DAT-0074-description-html"></span>
+<script>generate_markdown("DAT-0074-description",true);</script>
+</li>
+<li id="DAT-0075">
+<textarea id="DAT-0075-description-md" class="markdown">Número de muestras</textarea>
+<span id="DAT-0075-description-html"></span>
+<script>generate_markdown("DAT-0075-description",true);</script>
+</li>
+<li id="DAT-0077">
+<textarea id="DAT-0077-description-md" class="markdown">Marca</textarea>
+<span id="DAT-0077-description-html"></span>
+<script>generate_markdown("DAT-0077-description",true);</script>
+</li>
+<li id="DAT-0078">
+<textarea id="DAT-0078-description-md" class="markdown">Precio de venta</textarea>
+<span id="DAT-0078-description-html"></span>
+<script>generate_markdown("DAT-0078-description",true);</script>
+</li>
+<li id="DAT-0079">
+<textarea id="DAT-0079-description-md" class="markdown">
+<a href="#GLO-0004" class="rem_ref">Stock</a></textarea>
+<span id="DAT-0079-description-html"></span>
+<script>generate_markdown("DAT-0079-description",true);</script>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="IRQ-0006-comments-md" class="markdown">Ninguno</textarea>
+<div id="IRQ-0006-comments-html" class="remus_comments"></div>
+<script>generate_markdown("IRQ-0006-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0007">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0007</th>
+<th class="name_column" colspan="2">Información sobre los pedidos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (02/12/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="IRQ-0007-relevantConcept-md" class="markdown">El sistema deberá almacenar la información correspondiente a los pedidos que realiza un <a href="#GLO-0006" class="rem_ref">usuario</a>. En concreto:</textarea>
+<div id="IRQ-0007-relevantConcept-html" class="relevant_concept"></div>
+<script>generate_markdown("IRQ-0007-relevantConcept");</script>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0081">
+<textarea id="DAT-0081-description-md" class="markdown">Método: on-line, presencial</textarea>
+<span id="DAT-0081-description-html"></span>
+<script>generate_markdown("DAT-0081-description",true);</script>
+</li>
+<li id="DAT-0082">
+<textarea id="DAT-0082-description-md" class="markdown">Estado: pendiente, enviado, recibido</textarea>
+<span id="DAT-0082-description-html"></span>
+<script>generate_markdown("DAT-0082-description",true);</script>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="IRQ-0007-comments-md" class="markdown">Ninguno</textarea>
+<div id="IRQ-0007-comments-html" class="remus_comments"></div>
+<script>generate_markdown("IRQ-0007-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0008">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0008</th>
+<th class="name_column" colspan="2">Información sobre los proveedores</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (02/12/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="IRQ-0008-relevantConcept-md" class="markdown">El sistema deberá almacenar la información correspondiente a los proveedores asociados a la clínica. En concreto:</textarea>
+<div id="IRQ-0008-relevantConcept-html" class="relevant_concept"></div>
+<script>generate_markdown("IRQ-0008-relevantConcept");</script>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0086">
+<textarea id="DAT-0086-description-md" class="markdown">Nombre</textarea>
+<span id="DAT-0086-description-html"></span>
+<script>generate_markdown("DAT-0086-description",true);</script>
+</li>
+<li id="DAT-0087">
+<textarea id="DAT-0087-description-md" class="markdown">Télefono</textarea>
+<span id="DAT-0087-description-html"></span>
+<script>generate_markdown("DAT-0087-description",true);</script>
+</li>
+<li id="DAT-0088">
+<textarea id="DAT-0088-description-md" class="markdown">Dirección</textarea>
+<span id="DAT-0088-description-html"></span>
+<script>generate_markdown("DAT-0088-description",true);</script>
+</li>
+<li id="DAT-0089">
+<textarea id="DAT-0089-description-md" class="markdown">Email</textarea>
+<span id="DAT-0089-description-html"></span>
+<script>generate_markdown("DAT-0089-description",true);</script>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="IRQ-0008-comments-md" class="markdown">Ninguno</textarea>
+<div id="IRQ-0008-comments-html" class="remus_comments"></div>
+<script>generate_markdown("IRQ-0008-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0009">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0009</th>
+<th class="name_column" colspan="2">Información sobre los encargos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (02/12/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="IRQ-0009-relevantConcept-md" class="markdown">El sistema deberá almacenar la información correspondiente a los encargos que realiza la clínica a un proveedor. En concreto:</textarea>
+<div id="IRQ-0009-relevantConcept-html" class="relevant_concept"></div>
+<script>generate_markdown("IRQ-0009-relevantConcept");</script>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0090">
+<textarea id="DAT-0090-description-md" class="markdown">Fecha de envío</textarea>
+<span id="DAT-0090-description-html"></span>
+<script>generate_markdown("DAT-0090-description",true);</script>
+</li>
+<li id="DAT-0092">
+<textarea id="DAT-0092-description-md" class="markdown">Fecha de recepción</textarea>
+<span id="DAT-0092-description-html"></span>
+<script>generate_markdown("DAT-0092-description",true);</script>
+</li>
+<li id="DAT-0091">
+<textarea id="DAT-0091-description-md" class="markdown">Estado: pendiente, enviado, recibido</textarea>
+<span id="DAT-0091-description-html"></span>
+<script>generate_markdown("DAT-0091-description",true);</script>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="IRQ-0009-comments-md" class="markdown">Ninguno</textarea>
+<div id="IRQ-0009-comments-html" class="remus_comments"></div>
+<script>generate_markdown("IRQ-0009-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0010">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0010</th>
+<th class="name_column" colspan="2">Información sobre las facturas</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (02/12/2020)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<textarea id="IRQ-0010-relevantConcept-md" class="markdown">El sistema deberá almacenar la información correspondiente a las facturas que maneja la clínica. Pueden ser facturas de proveedores, de consultas o de pedidos. En concreto:</textarea>
+<div id="IRQ-0010-relevantConcept-html" class="relevant_concept"></div>
+<script>generate_markdown("IRQ-0010-relevantConcept");</script>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0093">
+<textarea id="DAT-0093-description-md" class="markdown">Importe</textarea>
+<span id="DAT-0093-description-html"></span>
+<script>generate_markdown("DAT-0093-description",true);</script>
+</li>
+<li id="DAT-0094">
+<textarea id="DAT-0094-description-md" class="markdown">Concepto (solo aplica a facturas de consultas)</textarea>
+<span id="DAT-0094-description-html"></span>
+<script>generate_markdown("DAT-0094-description",true);</script>
+</li>
+<li id="DAT-0095">
+<textarea id="DAT-0095-description-md" class="markdown">Pago (solo aplica a facturas de pedidos): efectivo, tarjeta, bizum</textarea>
+<span id="DAT-0095-description-html"></span>
+<script>generate_markdown("DAT-0095-description",true);</script>
+</li>
+<li id="DAT-0096">
+<textarea id="DAT-0096-description-md" class="markdown">Gastos de envío (solo aplica a facturas de pedidos)</textarea>
+<span id="DAT-0096-description-html"></span>
+<script>generate_markdown("DAT-0096-description",true);</script>
+</li>
+<li id="DAT-0097">
+<textarea id="DAT-0097-description-md" class="markdown">Linea de factura (entidad aparte). Existen dos: de proveedor, con cantidad y precio unitario, y la de pedido con cantidad</textarea>
+<span id="DAT-0097-description-html"></span>
+<script>generate_markdown("DAT-0097-description",true);</script>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="2">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="2">validado</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<textarea id="IRQ-0010-comments-md" class="markdown">Ninguno</textarea>
+<div id="IRQ-0010-comments-html" class="remus_comments"></div>
+<script>generate_markdown("IRQ-0010-comments");</script>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0037" class="section">6.3.2 Requisitos de reglas de negocio del sistema</h3>
 <div id="CRQ-0001">
 <table class="constraint_requirement remus_table">
@@ -3114,6 +4097,361 @@
 <h2 id="SEC-0047" class="section">6.5 Restricciones técnicas del sistema</h2>
 <h2 id="SEC-0048" class="section">6.6 Requisitos de integración del sistema</h2>
 <h2 id="SEC-0049" class="section">6.7 Información sobre trazabilidad</h2>
+<div id="TRM-0001" class="traceability_matrix">
+<table class="traceability_matrix remus_table">
+<thead>
+<tr>
+<th class="matrix_oid">
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/traceabilityMatrix.png" /> <span class="matriz_oid">TRM-0001</span>
+<br />
+<button class="reduce_font">A-</button>
+<button class="increase_font">A+</button>
+</th>
+<th class="matrix_column">
+<a href="#OBJ-0001">OBJ-0001</a>
+</th>
+<th class="matrix_column">
+<a href="#OBJ-0002">OBJ-0002</a>
+</th>
+<th class="matrix_column">
+<a href="#OBJ-0003">OBJ-0003</a>
+</th>
+<th class="matrix_column">
+<a href="#OBJ-0004">OBJ-0004</a>
+</th>
+<th class="matrix_column">
+<a href="#OBJ-0005">OBJ-0005</a>
+</th>
+<th class="matrix_column">
+<a href="#OBJ-0006">OBJ-0006</a>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>
+<a href="#IRQ-0001">IRQ-0001</a>
+</th>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#IRQ-0002">IRQ-0002</a>
+</th>
+<td class="trace" />
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#IRQ-0003">IRQ-0003</a>
+</th>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#IRQ-0004">IRQ-0004</a>
+</th>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#IRQ-0005">IRQ-0005</a>
+</th>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+</tr>
+<tr>
+<th>
+<a href="#IRQ-0006">IRQ-0006</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+<td class="trace" />
+<td class="trace" />
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#IRQ-0007">IRQ-0007</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#IRQ-0008">IRQ-0008</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#IRQ-0009">IRQ-0009</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#IRQ-0010">IRQ-0010</a>
+</th>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+<td class="trace" />
+<td class="trace" />
+<td class="trace" />
+</tr>
+</tbody>
+</table>
+<p class="matrix_caption">
+<span class="matrix_caption_label">Matriz de rastreabilidad 1: </span>
+<textarea id="TRM-0001-name-md" class="markdown">Requisitos de información</textarea>
+<span id="TRM-0001-name-html"></span>
+<script>generate_markdown("TRM-0001-name",true);</script>
+</p>
+</div>
+<div id="TRM-0002" class="traceability_matrix">
+<table class="traceability_matrix remus_table">
+<thead>
+<tr>
+<th class="matrix_oid">
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/traceabilityMatrix.png" /> <span class="matriz_oid">TRM-0002</span>
+<br />
+<button class="reduce_font">A-</button>
+<button class="increase_font">A+</button>
+</th>
+<th class="matrix_column">
+<a href="#OBJ-0001">OBJ-0001</a>
+</th>
+<th class="matrix_column">
+<a href="#OBJ-0002">OBJ-0002</a>
+</th>
+<th class="matrix_column">
+<a href="#OBJ-0003">OBJ-0003</a>
+</th>
+<th class="matrix_column">
+<a href="#OBJ-0004">OBJ-0004</a>
+</th>
+<th class="matrix_column">
+<a href="#OBJ-0005">OBJ-0005</a>
+</th>
+<th class="matrix_column">
+<a href="#OBJ-0006">OBJ-0006</a>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>
+<a href="#UC-0001">UC-0001</a>
+</th>
+<td class="trace" />
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#UC-0002">UC-0002</a>
+</th>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#UC-0003">UC-0003</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#UC-0004">UC-0004</a>
+</th>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#UC-0005">UC-0005</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+</tr>
+<tr>
+<th>
+<a href="#UC-0006">UC-0006</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#UC-0007">UC-0007</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#UC-0008">UC-0008</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#UC-0009">UC-0009</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#UC-0010">UC-0010</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#UC-0011">UC-0011</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#UC-0012">UC-0012</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#UC-0013">UC-0013</a>
+</th>
+<td class="trace" />
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#UC-0014">UC-0014</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace" />
+</tr>
+<tr>
+<th>
+<a href="#UC-0015">UC-0015</a>
+</th>
+<td class="trace" />
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<p class="matrix_caption">
+<span class="matrix_caption_label">Matriz de rastreabilidad 2: </span>
+<textarea id="TRM-0002-name-md" class="markdown">Casos de usos</textarea>
+<span id="TRM-0002-name-html"></span>
+<script>generate_markdown("TRM-0002-name",true);</script>
+</p>
+</div>
 <h1 id="SEC-0025" class="section">A Actas de reuniones</h1>
 <div id="MET-0001">
 <table class="meeting remus_table">
@@ -3297,6 +4635,68 @@
 <textarea id="MET-0003-comments-md" class="markdown">Ninguno</textarea>
 <div id="MET-0003-comments-html" class="remus_comments"></div>
 <script>generate_markdown("MET-0003-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="MET-0004">
+<table class="meeting remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/meeting.png" /> Reunión</th>
+<th class="name_column" colspan="1">Acta de la 4ª reunión</th>
+</tr>
+</thead>
+<tr>
+<th>Fecha</th>
+<td colspan="1">21/11/2020</td>
+</tr>
+<tr>
+<th>Hora</th>
+<td colspan="1">18:30</td>
+</tr>
+<tr>
+<th>Lugar</th>
+<td colspan="1">
+<textarea id="MET-0004-place-md" class="markdown">On-line</textarea>
+<span id="MET-0004-place-html"></span>
+<script>generate_markdown("MET-0004-place",true);</script>
+</td>
+</tr>
+<tr>
+<th>Asistentes</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0004">Ana María Barba Sigüenza</a>
+</li>
+<li>
+<a href="#STK-0003">Fernando Hernández Quesada</a>
+</li>
+<li>
+<a href="#STK-0001">Jesús Barba Sigüenza</a>
+</li>
+<li>
+<a href="#STK-0002">Manuel Moguer Villalba</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Resultados</th>
+<td colspan="1">
+<textarea id="MET-0004-results-md" class="markdown">En este encuentro hemos resueltos dudas que surgieron a medida que evolucionaba el proyecto y hemos planteado y discutido los diferentes casos de uso del sistema y varias restricciones que debe cumplir el sistema. También se han terminado de validar diversos requisitos funcionales y no funcionales.</textarea>
+<div id="MET-0004-results-html" class=""></div>
+<script>generate_markdown("MET-0004-results");</script>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="MET-0004-comments-md" class="markdown">Ninguno</textarea>
+<div id="MET-0004-comments-html" class="remus_comments"></div>
+<script>generate_markdown("MET-0004-comments");</script>
 </td>
 </tr>
 </table>
