@@ -517,6 +517,46 @@
 <h1 id="SEC-0070" class="section">6 Interfaz de servicios del sistema</h1>
 <h2 id="SEC-0071" class="section">6.1 Diagramas de la interfaz de servicios del sistema</h2>
 <h2 id="SEC-0072" class="section">6.2 Descripción de la interfaz de servicios del sistema</h2>
+<div id="PRG-0049">
+<textarea id="PRG-0049-text-md" class="markdown">Los servicios de los que consta nuestro sistema son los siguientes:¬¬- &lt;b&gt;ServiciosUsuario:&lt;/b&gt; ¬¬    registrarUsuario(): registrar un nuevo <a href="#GLO-0006" class="rem_ref">usuario</a> en el sistema.¬¬    eliminarUsuario(): dar de baja un <a href="#GLO-0006" class="rem_ref">usuario</a> del sistema.¬¬    modificarUsuario(): editar los datos del <a href="#GLO-0006" class="rem_ref">usuario</a> en el sistema.¬¬    añadirTarjetaDeCrédito(): añadir una nueva tarjeta de crédito asociada a un <a href="#GLO-0006" class="rem_ref">usuario</a>.¬¬    eliminarTarjetaDeCrédito(): eliminar una tarjeta de crédito ya existente de un <a href="#GLO-0006" class="rem_ref">usuario</a>.¬¬    añadirDirección(): añadir una nueva dirección asociada a un <a href="#GLO-0006" class="rem_ref">usuario</a>.¬¬    eliminarDirección(): eliminar una dirección ya existente de un <a href="#GLO-0006" class="rem_ref">usuario</a>.¬¬    filtrarPaciente(): buscar un paciente por su dni/nº paciente/nombre y apellidos.¬¬    detallesPaciente(): mostrar información detallada de un paciente.</textarea>
+<div id="PRG-0049-text-html" class=""></div>
+<script>generate_markdown("PRG-0049-text");</script>
+</div>
+<div id="PRG-0050">
+<textarea id="PRG-0050-text-md" class="markdown">- &lt;b&gt;ServiciosProducto:&lt;/b&gt; ¬¬    catalogoDeProductosEnVenta(): mostrar un listado con todos los productos que hay en venta en la web.¬¬    obtenerProductosRecomendados(): mostrar los productos relacionados con el que se está observando.¬¬    filtrarProductoPorNombre(): buscar un producto en venta dado su nombre.¬¬    detallesDeProducto(): mostrar información detallada de un producto.¬¬    listadoDeProductos(): mostrar un listado de los productos existentes en la clínica.¬¬    registrarProducto(): añadir un nuevo producto al sistema, asociado a un proveedor.¬¬    modificarProducto(): editar los campos de un producto.¬¬    eliminarProducto(): eliminar un producto del sistema.¬¬    subirProductoAWeb(): poner en venta un producto registrado en la plataforma web.¬¬    darDeBajaProductoEnWeb(): dar de baja un producto que se encuentra actualmente en la web.</textarea>
+<div id="PRG-0050-text-html" class=""></div>
+<script>generate_markdown("PRG-0050-text");</script>
+</div>
+<div id="PRG-0051">
+<textarea id="PRG-0051-text-md" class="markdown">- &lt;b&gt;ServiciosCita:&lt;/b&gt;¬¬    registraCita(): registrar una nueva cita en sistema.¬¬¬    cancelarCita(): cancelar una cita pendiente.¬¬    detallesDeCita(): mostrar información detallada de una cita en específica.¬¬    obtenerFacturaCita(): mostrar una factura relacionada con una cita.  ¬¬    listadoCitasProximas(): listado de las citas pendientes cercanas, permitiendo el filtro diario, mensual y anual.¬¬¬    listadoCitasUsuario(): listado de todas las citas relacionadas con un <a href="#GLO-0006" class="rem_ref">usuario</a>.</textarea>
+<div id="PRG-0051-text-html" class=""></div>
+<script>generate_markdown("PRG-0051-text");</script>
+</div>
+<div id="PRG-0052">
+<textarea id="PRG-0052-text-md" class="markdown">- &lt;b&gt;ServiciosPedido:&lt;/b&gt;¬¬    registrarPedido(): registrar un pedido correspondiente a un <a href="#GLO-0006" class="rem_ref">usuario</a>.¬¬    listadoPedidoUsuario(): listado de los pedidos realizados por un <a href="#GLO-0006" class="rem_ref">usuario</a>.¬¬    listadoPedidoAdministrador(): listado de todos los pedidos realizados en la clínica (permitiendo un filtro).¬¬    obtenerFacturaPedido(): factura correspondiente a un pedido.¬¬    obtenerBalanceEconómico(): mostrar un cálculo mensual o anual de los gastos y ganancias de la clínica.</textarea>
+<div id="PRG-0052-text-html" class=""></div>
+<script>generate_markdown("PRG-0052-text");</script>
+</div>
+<div id="PRG-0053">
+<textarea id="PRG-0053-text-md" class="markdown">- &lt;b&gt;ServiciosCesta:&lt;/b&gt;¬¬    añadirProducto(): añadir a la cesta un producto.¬¬    mostrarProductosEnCesta(): listado con todos los productos añadidos a la cesta.¬¬    modificarCantidadProducto(): modificar la cantidad de un producto a comprar en la cesta,¬¬    eliminarProducto(): eliminar un producto de la cesta.</textarea>
+<div id="PRG-0053-text-html" class=""></div>
+<script>generate_markdown("PRG-0053-text");</script>
+</div>
+<div id="PRG-0054">
+<textarea id="PRG-0054-text-md" class="markdown">- &lt;b&gt;ServiciosProveedor:&lt;/b&gt;¬¬    listadoProveedores(): listado con todos los proveedores de la clínica.¬¬    registrarProveedor(): registrar un nuevo proveedor en el sistema.¬¬    modificarProveedor(): modificar los datos de un proveedor seleccionado.</textarea>
+<div id="PRG-0054-text-html" class=""></div>
+<script>generate_markdown("PRG-0054-text");</script>
+</div>
+<div id="PRG-0055">
+<textarea id="PRG-0055-text-md" class="markdown">- &lt;b&gt;ServiciosConsulta:&lt;/b&gt;¬¬    historialPaciente(): obtener todas las consultas realizadas por un paciente.¬¬    registrarConsulta(): registrar una consulta realizada a un paciente.¬¬    obtenerInforme(): consultar el informe de una consulta.</textarea>
+<div id="PRG-0055-text-html" class=""></div>
+<script>generate_markdown("PRG-0055-text");</script>
+</div>
+<div id="PRG-0056">
+<textarea id="PRG-0056-text-md" class="markdown">- &lt;b&gt;ServiciosEncargo:&lt;/b&gt;¬¬    listadoDeEncargos(): una listado con todos los encargos realizados a los proveedores.¬¬    registrarEncargo(): registar un nuevo encargo.¬¬    obtenerFacturaEncargo(): obtener la factura relacionado a un encargo.</textarea>
+<div id="PRG-0056-text-html" class=""></div>
+<script>generate_markdown("PRG-0056-text");</script>
+</div>
 <h2 id="SEC-0073" class="section">6.3 Servicios consumidos por el sistema</h2>
 <h1 id="SEC-0074" class="section">7 Información sobre trazabilidad</h1>
 <h1 id="SEC-0075" class="section">A Glosario de acrónimos y abreviaturas</h1>
