@@ -243,7 +243,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>- Automatización del almacén de la clínica. El sistema notificará al <rem:ref oid="GLO-0005">cliente</rem:ref> cuando el <rem:ref oid="GLO-0004">stock</rem:ref> de un producto sea menor de lo requerido y solicitará la cantidad deseada al proveedor.<br/><br/>- Diversidad a la hora de pedir citas. Además de los métodos acutales (vía telefónica y presencial), añadir otro método para solicitar las citas (vía on-line).<br/><br/>- Ofrecer otro método de venta. Añadir la posibilidad de vender los productos del local en la web.<br/><br/>- Automatización de ciertas tareas presentes en los procesos de depilación láser e implantación de <rem:ref oid="GLO-0017">bráckets</rem:ref>.</rem:text>
+<rem:text>- Automatización del almacén de la clínica. El sistema notificará al <rem:ref oid="GLO-0005">cliente</rem:ref> cuando el <rem:ref oid="GLO-0004">stock</rem:ref> de un producto sea menor de lo requerido y solicitará la cantidad deseada al proveedor.<br/><br/>- Diversidad a la hora de pedir citas. Además de los métodos acutales (vía telefónica y presencial), añadir otro método para solicitar las citas (vía on-line).<br/><br/>- Ofrecer otro método de venta. Añadir la posibilidad de vender los productos del local en la web.<br/><br/>- Automatización de ciertas tareas presentes en los procesos de depilación láser e implantación de bráckets.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -287,7 +287,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Existe un sistema de información desactualizado no aplicable a la mayoría de procesos, por lo que en muchos casos es inservible. Por ello, a la hora de gestionar el <rem:ref oid="GLO-0004">stock</rem:ref> se realiza de forma manual con un recuento semanal.<br/><br/>Los pedidos a proveedores se realizan de forma tradicional. El <rem:ref oid="GLO-0005">cliente</rem:ref>, tras realizar el recuento y si lo ve necesario, contacta con el proveedor para acordar un pedido.<br/><br/>Al no disponer de una plataforma online donde vender sus productos, la comercialización se realiza únicamente en el local, llegando a un público bastante reducido.<br/><br/>Los únicos medios para solicitar un <rem:ref oid="GLO-0007">servicio</rem:ref> y pedir una cita son de forma presencial o mediante llamada telefónica, existiendo el riesgo de que estos se colapsen debido al tiempo que se tarda en recoger los datos requeridos.</rem:text>
+<rem:text>Existe un sistema de información desactualizado no aplicable a la mayoría de procesos, por lo que en muchos casos es inservible. Por ello, a la hora de gestionar el <rem:ref oid="GLO-0004">stock</rem:ref> se realiza de forma manual con un recuento semanal.<br/><br/>Los pedidos a proveedores se realizan de forma tradicional. El <rem:ref oid="GLO-0005">cliente</rem:ref>, tras realizar el recuento y si lo ve necesario, contacta con el proveedor para acordar un pedido.<br/><br/>Al no disponer de una plataforma online donde vender sus productos, la comercialización se realiza únicamente en el local, llegando a un público bastante reducido.<br/><br/>Los únicos medios para solicitar un servicio y pedir una cita son de forma presencial o mediante llamada telefónica, existiendo el riesgo de que estos se colapsen debido al tiempo que se tarda en recoger los datos requeridos.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0004">
@@ -344,35 +344,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>toda persona que acude a la clínica, ya sea para recibir un <rem:ref oid="GLO-0007">servicio</rem:ref> o adquirir un producto.</rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem oid="GLO-0007">
-<rem:name>Servicio</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>tratamientos odontológicos o estéticos que recibe un <rem:ref oid="GLO-0006">usuario</rem:ref> por parte de la clínica.</rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem oid="GLO-0017">
-<rem:name>Bráckets</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>5</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>herramienta utilizada en usuarios para corregir tanto la mordedura como la posición de los dientes.</rem:text>
+<rem:text>toda persona que acude a la clínica, ya sea para recibir un servicio o adquirir un producto.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0027">
 <rem:name>Invisalign</rem:name>
@@ -714,10 +686,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>- &lt;h3&gt;&lt;b&gt;Proceso de implantación de <rem:ref oid="GLO-0017">bráckets</rem:ref>: &lt;/b&gt;&lt;/h3&gt;<br/><br/>El <rem:ref oid="GLO-0006">usuario</rem:ref> solicita un presupuesto a la odontóloga y decide si contratar el sevicio o no. Si decide contratar el sevicio y necesita tratamiento previo, pide cita para este proceso. En caso de no haberlo necesitado o de haberlo finalizado, se solicita cita para la implantación de los <rem:ref oid="GLO-0017">bráckets</rem:ref>.Tras la colocación de los <rem:ref oid="GLO-0017">bráckets</rem:ref>, recibir los consejos iniciales de la doctora y pagar la cuota mensual se vuelve a realizar el mismo proceso pero en este caso realizando un reajuste de los <rem:ref oid="GLO-0017">bráckets</rem:ref> y tomando una  foto cuando sea oportuno. Finalmente tras terminar el tratamiento recoge la funda.<br/><br/>Simultaneamente, en este proceso la recepcionista en cada consulta prepara la sala y repone el <rem:ref oid="GLO-0004">stock</rem:ref> si fuese necesario, y el odontólogo realiza las tareas oportunas sobre el <rem:ref oid="GLO-0006">usuario</rem:ref>.</rem:text>
+<rem:text>- &lt;h3&gt;&lt;b&gt;Proceso de implantación de bráckets: &lt;/b&gt;&lt;/h3&gt;<br/><br/>El <rem:ref oid="GLO-0006">usuario</rem:ref> solicita un presupuesto a la odontóloga y decide si contratar el sevicio o no. Si decide contratar el sevicio y necesita tratamiento previo, pide cita para este proceso. En caso de no haberlo necesitado o de haberlo finalizado, se solicita cita para la implantación de los bráckets.Tras la colocación de los bráckets, recibir los consejos iniciales de la doctora y pagar la cuota mensual se vuelve a realizar el mismo proceso pero en este caso realizando un reajuste de los bráckets y tomando una  foto cuando sea oportuno. Finalmente tras terminar el tratamiento recoge la funda.<br/><br/>Simultaneamente, en este proceso la recepcionista en cada consulta prepara la sala y repone el <rem:ref oid="GLO-0004">stock</rem:ref> si fuese necesario, y el odontólogo realiza las tareas oportunas sobre el <rem:ref oid="GLO-0006">usuario</rem:ref>.</rem:text>
 </rem:paragraph>
 <rem:graphicFile oid="GRF-0012">
-<rem:name>Proceso de implantación de <rem:ref oid="GLO-0017">bráckets</rem:ref></rem:name>
+<rem:name>Proceso de implantación de bráckets</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1016,7 +988,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>- &lt;h3&gt;&lt;b&gt;Proceso de depilación láser:&lt;/b&gt;&lt;/h3&gt;<br/><br/>El nuevo proceso, además de la vía presencial ya descrita, ofrecerá la posibilidad de que el <rem:ref oid="GLO-0005">cliente</rem:ref> pueda consultar los precios de las tarifas y contratar el <rem:ref oid="GLO-0007">servicio</rem:ref> via online.<br/>Simultaneamente la secretaria prepara la sala de tratamiento antes de cada consulta y en el sistema se reduce el <rem:ref oid="GLO-0004">stock</rem:ref> utilizado, despues de cada consulta pregunta al <rem:ref oid="GLO-0006">usuario</rem:ref> si quiere  que el envía la factura por correo o en papel.<br/>Por otra parte el médico, se encargará en cada consulta de aplicar el tratamiento al paciente y entregar el informe de la consulta por email o en mano.</rem:text>
+<rem:text>- &lt;h3&gt;&lt;b&gt;Proceso de depilación láser:&lt;/b&gt;&lt;/h3&gt;<br/><br/>El nuevo proceso, además de la vía presencial ya descrita, ofrecerá la posibilidad de que el <rem:ref oid="GLO-0005">cliente</rem:ref> pueda consultar los precios de las tarifas y contratar el servicio via online.<br/>Simultaneamente la secretaria prepara la sala de tratamiento antes de cada consulta y en el sistema se reduce el <rem:ref oid="GLO-0004">stock</rem:ref> utilizado, despues de cada consulta pregunta al <rem:ref oid="GLO-0006">usuario</rem:ref> si quiere  que el envía la factura por correo o en papel.<br/>Por otra parte el médico, se encargará en cada consulta de aplicar el tratamiento al paciente y entregar el informe de la consulta por email o en mano.</rem:text>
 </rem:paragraph>
 <rem:graphicFile oid="GRF-0008">
 <rem:name>Proceso de depilación láser</rem:name>
@@ -1044,10 +1016,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>- &lt;h3&gt;&lt;b&gt;Proceso de implantación de <rem:ref oid="GLO-0017">bráckets</rem:ref>: &lt;/b&gt;&lt;/h3&gt;<br/><br/>Por parte del <rem:ref oid="GLO-0005">cliente</rem:ref>, el proceso es idéntico al ya descrito.<br/>La secretaria prepara la sala de tratamiento antes de cada consulta y en el sistema se reduce el <rem:ref oid="GLO-0004">stock</rem:ref> utilizado. Si todavía quedan cuotas por pagar, consulta al <rem:ref oid="GLO-0006">usuario</rem:ref> si quiere que le envíe la factura por correo o en papel.<br/>La actividad del médico será idénticá a la descrita anteriormente y además se entregará el informe de la consulta al <rem:ref oid="GLO-0006">usuario</rem:ref> por email y en mano.</rem:text>
+<rem:text>- &lt;h3&gt;&lt;b&gt;Proceso de implantación de bráckets: &lt;/b&gt;&lt;/h3&gt;<br/><br/>Por parte del <rem:ref oid="GLO-0005">cliente</rem:ref>, el proceso es idéntico al ya descrito.<br/>La secretaria prepara la sala de tratamiento antes de cada consulta y en el sistema se reduce el <rem:ref oid="GLO-0004">stock</rem:ref> utilizado. Si todavía quedan cuotas por pagar, consulta al <rem:ref oid="GLO-0006">usuario</rem:ref> si quiere que le envíe la factura por correo o en papel.<br/>La actividad del médico será idénticá a la descrita anteriormente y además se entregará el informe de la consulta al <rem:ref oid="GLO-0006">usuario</rem:ref> por email y en mano.</rem:text>
 </rem:paragraph>
 <rem:graphicFile oid="GRF-0011">
-<rem:name>Proceso de implantación de <rem:ref oid="GLO-0017">bráckets</rem:ref></rem:name>
+<rem:name>Proceso de implantación de bráckets</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1368,7 +1340,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:actorRole>al encargado de realizar el proceso de implantación de <rem:ref oid="GLO-0017">bráckets</rem:ref></rem:actorRole>
+<rem:actorRole>al encargado de realizar el proceso de implantación de bráckets</rem:actorRole>
 </rem:actor>
 <rem:actor oid="ACT-0003">
 <rem:name>Proveedor</rem:name>
@@ -1438,7 +1410,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:actorRole>a la persona que recibe un <rem:ref oid="GLO-0007">servicio</rem:ref> por parte de la clínica o que adquiere un producto</rem:actorRole>
+<rem:actorRole>a la persona que recibe un servicio por parte de la clínica o que adquiere un producto</rem:actorRole>
 </rem:actor>
 </rem:section>
 <rem:section oid="SEC-0034">
@@ -1604,33 +1576,12 @@
 <rem:urgency value = "URV-0003"/>
 <rem:status value = "STV-0005"/>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:triggeringEvent>recibe un aviso del sistema indicando la falta de <rem:ref oid="GLO-0004">stock</rem:ref> en algún producto</rem:triggeringEvent>
+<rem:triggeringEvent>recibe un aviso del sistema indicando la falta de <rem:ref oid="GLO-0004">stock</rem:ref> en algún producto. Antes de realizar un pedido el administrador de venta revisa las alertas pendientes del sistema referentes a productos con <rem:ref oid="GLO-0004">stock</rem:ref> bajo, entonces procede a indicar a éste la cantidad y los productos a solicitar. Finalmente, el sistema envía a los proveedorees correspondiente la solicitud</rem:triggeringEvent>
 <rem:precondition>El administrador de venta decide solicitar productos al proveedor</rem:precondition>
 <rem:postcondition>El proveedor recibe el encargo correctamente</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-<rem:step oid = "STP-0017">
-<rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0006">
-<rem:description>revisa alertas pendientes referentes a productos con <rem:ref oid="GLO-0004">stock</rem:ref> bajo</rem:description>
-</rem:actorAction>
-<rem:comments>Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0018">
-<rem:number>2</rem:number>
-<rem:actorAction actor = "ACT-0006">
-<rem:description>indica al sistema la cantidad y los productos a solicitar</rem:description>
-</rem:actorAction>
-<rem:comments>Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0019">
-<rem:number>3</rem:number>
-<rem:systemAction>
-<rem:description>envía a los proveedores correspondientes la solicitud</rem:description>
-</rem:systemAction>
-<rem:comments>Ninguno</rem:comments>
-</rem:step>
 </rem:useCase>
 <rem:useCase oid="UC-0004">
 <rem:name>Consultar citas próximas</rem:name>
@@ -1671,7 +1622,7 @@
 <rem:urgency value = "URV-0003"/>
 <rem:status value = "STV-0002"/>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:triggeringEvent>el sistema registra un pedido on-line o la recepcionista registra una consulta, el sistema envía de forma automática un correo al <rem:ref oid="GLO-0006">usuario</rem:ref> con la factura correspondiente</rem:triggeringEvent>
+<rem:triggeringEvent>se registre un pedido on-line o la recepcionista registra una consulta, el sistema envía de forma automática un correo al <rem:ref oid="GLO-0006">usuario</rem:ref> con la factura correspondiente</rem:triggeringEvent>
 <rem:precondition>El <rem:ref oid="GLO-0006">usuario</rem:ref> ha realizado una compra on-line o ha terminado una consulta y ha decidido recibirla por correo.</rem:precondition>
 <rem:postcondition>El <rem:ref oid="GLO-0006">usuario</rem:ref> recibe en el correo la factura de forma satisfactoria.</rem:postcondition>
 <rem:frequency>
@@ -1792,7 +1743,7 @@
 <rem:urgency value = "URV-0003"/>
 <rem:status value = "STV-0002"/>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:triggeringEvent>el administrador de venta vea necesario incorporar un producto a la web</rem:triggeringEvent>
+<rem:triggeringEvent>el administrador de ventas vea necesario incorporar un producto a la web</rem:triggeringEvent>
 <rem:precondition>El producto debe estar registrado en el sistema con todos los datos correspondientes </rem:precondition>
 <rem:postcondition>El artículo aparece en la web de forma satisfactoria</rem:postcondition>
 <rem:frequency>
@@ -1888,50 +1839,6 @@
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-</rem:useCase>
-<rem:useCase oid="UC-0012">
-<rem:name>Registrar nuevo artículo</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:importance value = "IMV-0002"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0002"/>
-<rem:stability><rem:tbd/></rem:stability>
-<rem:triggeringEvent>el administrador de ventas desea incorporar un nuevo producto al sistema</rem:triggeringEvent>
-<rem:precondition>Registrar el proveedor al que pertenece el artículo.</rem:precondition>
-<rem:postcondition>El artículo queda registrado correctamente en el sistema.</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-<rem:step oid = "STP-0033">
-<rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0006">
-<rem:description>introduce todos los datos del artículo a registrar en el formulario</rem:description>
-</rem:actorAction>
-<rem:comments>Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0034">
-<rem:number>2</rem:number>
-<rem:actorAction actor = "ACT-0006">
-<rem:description>selecciona de una lista el proveedor al que corresponde dicho artículo</rem:description>
-</rem:actorAction>
-<rem:comments>Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0035">
-<rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0006">
-<rem:description>envia el formulario y el sistema guarda el artículo con sus datos correspondientes</rem:description>
-</rem:actorAction>
-<rem:comments>Ninguno</rem:comments>
-</rem:step>
 </rem:useCase>
 <rem:useCase oid="UC-0013">
 <rem:name>Mostrar historial del paciente</rem:name>
@@ -2245,7 +2152,7 @@
 <rem:comments>Ninguno</rem:comments>
 </rem:specificData>
 <rem:specificData oid = "DAT-0061">
-<rem:description>Concepto: depilación, <rem:ref oid="GLO-0017">bráckets</rem:ref>, revisión, muela infectada, extracción dental, blanqueamiento, limpieza dental, otro</rem:description>
+<rem:description>Concepto: depilación, bráckets, revisión, muela infectada, extracción dental, blanqueamiento, limpieza dental, otro</rem:description>
 <rem:comments>Ninguno</rem:comments>
 </rem:specificData>
 <rem:specificData oid = "DAT-0062">
@@ -2768,6 +2675,25 @@
 <rem:stability><rem:tbd/></rem:stability>
 <rem:description>si un <rem:ref oid="GLO-0006">usuario</rem:ref> tiene más de 10 consultas realizadas en la clínica, se le hará un 5% de descuento en las compras tanto presenciales como on-line que realize en la clínica</rem:description>
 </rem:constraintRequirement>
+<rem:constraintRequirement
+ oid="CRQ-0011">
+<rem:name>Limitar cantidad en cesta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>12</rem:month>
+<rem:day>21</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>no se permitirá añadir a la cesta una cantidad de un producto superior a la existente en el almacén</rem:description>
+</rem:constraintRequirement>
 </rem:section>
 <rem:section oid="SEC-0038">
 <rem:name>Requisitos de conducta del sistema</rem:name>
@@ -3070,6 +2996,24 @@
 <rem:status value = "STV-0005"/>
 <rem:stability><rem:tbd/></rem:stability>
 <rem:description>mostrar una vista con los datos personales del paciente, anteriores consultas (con sus respectivos informes y facturas) y próximas consultas</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement oid="FRQ-0017">
+<rem:name>Registrar nuevo artículo</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>12</rem:month>
+<rem:day>21</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>permitir registrar un nuevo artículo a través de un formulario, en el que se podrá seleccionar al proveedor correspondiente (añadido previamente).</rem:description>
 </rem:functionalRequirement>
 </rem:section>
 </rem:section>
@@ -3540,7 +3484,7 @@
 <rem:urgency value = "URV-0003"/>
 <rem:status value = "STV-0002"/>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:description>implementar la API de Gmail para el envío automático a usuarios de informes tras realizar una consulta, facturas tras compras o citas y recordatorios cuando haya una cita próxima</rem:description>
+<rem:description>implementar la <rem:ref oid="GLO-0058">API</rem:ref> de Gmail para el envío automático a usuarios de informes tras realizar una consulta, facturas tras compras o citas y recordatorios cuando haya una cita próxima</rem:description>
 </rem:nonFunctionalRequirement>
 </rem:section>
 <rem:section oid="SEC-0049">
@@ -3790,15 +3734,6 @@
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
-<rem:th oid ="UC-0012"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
 <rem:th oid ="UC-0013"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
@@ -3991,6 +3926,15 @@
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0017"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
 </rem:traceabilityMatrix>
 </rem:section>
 </rem:section>
@@ -4031,7 +3975,7 @@
 </rem:time>
 <rem:place>On-line</rem:place>
 <rem:results>Se llevó a cabo una primera toma de contacto con la recepcionista de la clínica, en la que hemos estado realizando preguntas sobre el número de trabajadores de la empresa y sus ocupaciones, las distintas actividades que se llevan a cabo y algunos problemas que tenían. Este primer acercamiento nos ha ayuda a conocer mejor la clínica.</rem:results>
-	<rem:attenders stakeholders = "STK-0002 STK-0001 STK-0003 STK-0004 "/>
+	<rem:attenders stakeholders = "STK-0004 STK-0002 STK-0001 STK-0003 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0002">
 <rem:name>Acta de la 2ª reunión</rem:name>
@@ -4056,7 +4000,7 @@
 </rem:time>
 <rem:place>On-line</rem:place>
 <rem:results>En esta segunda toma de contacto, hemos estado comentando los problemas más frecuentes y que se pueden informatizar, como por ejemplo la venta de productos y las citas. Además, hemos indagado más detalladamente en los procesos de negocio que se realizan.<br/></rem:results>
-	<rem:attenders stakeholders = "STK-0002 STK-0001 STK-0003 STK-0004 "/>
+	<rem:attenders stakeholders = "STK-0004 STK-0002 STK-0001 STK-0003 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0003">
 <rem:name>Acta de la 3ª reunión</rem:name>
@@ -4081,7 +4025,7 @@
 </rem:time>
 <rem:place>On-line</rem:place>
 <rem:results>En esta ocasión, hemos estado recogiendo requisitos de información, reglas de negocio, y requisitos funcionales y no funcionales. Además, se han aclarado conceptos que no estaban totalmente definidos en un principio. Por último, hemos estado comentando los avances y las nuevas ideas del proyecto.</rem:results>
-	<rem:attenders stakeholders = "STK-0002 STK-0001 STK-0003 STK-0004 "/>
+	<rem:attenders stakeholders = "STK-0004 STK-0002 STK-0001 STK-0003 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0004">
 <rem:name>Acta de la 4ª reunión</rem:name>
@@ -4106,7 +4050,7 @@
 </rem:time>
 <rem:place>On-line</rem:place>
 <rem:results>En este encuentro hemos resueltos dudas que surgieron a medida que evolucionaba el proyecto y hemos planteado y discutido los diferentes casos de uso del sistema y varias restricciones que debe cumplir el sistema. También se han terminado de validar diversos requisitos funcionales y no funcionales.</rem:results>
-	<rem:attenders stakeholders = "STK-0002 STK-0001 STK-0003 STK-0004 "/>
+	<rem:attenders stakeholders = "STK-0004 STK-0002 STK-0001 STK-0003 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0005">
 <rem:name>Acta de la 5ª reunión</rem:name>
@@ -4131,7 +4075,7 @@
 </rem:time>
 <rem:place>On-line</rem:place>
 <rem:results>Primero le mostramos varios mockups realizados días antes para conocer su impresión. Estos fueron bien recibidos aunque se sugirieron algunas modificaciones. Se revisó todo lo realizado desde la reunión anterior, haciendo énfasis en el catálogo de requisitos y tras el visto bueno, discutimos sobre la navegabilidad del sistema</rem:results>
-	<rem:attenders stakeholders = "STK-0002 STK-0001 STK-0003 STK-0004 "/>
+	<rem:attenders stakeholders = "STK-0004 STK-0002 STK-0001 STK-0003 "/>
 </rem:meeting>
 </rem:section>
 <rem:section oid="SEC-0026">
@@ -4218,6 +4162,20 @@
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
 <rem:text>Sistema Operativo</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0058">
+<rem:name>API</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>12</rem:month>
+<rem:day>21</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Application Programming Interface</rem:text>
 </rem:glossaryItem>
 </rem:section>
 </rem:c_requirementsSpecification>
@@ -4448,7 +4406,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>- Automatización del almacén de la clínica. El sistema notificará al <rem:ref oid="GLO-0005">cliente</rem:ref> cuando el <rem:ref oid="GLO-0004">stock</rem:ref> de un producto sea menor de lo requerido y solicitará la cantidad deseada al proveedor.<br/><br/>- Diversidad a la hora de pedir citas. Además de los métodos acutales (vía telefónica y presencial), añadir otro método para solicitar las citas (vía on-line).<br/><br/>- Ofrecer otro método de venta. Añadir la posibilidad de vender los productos del local en la web.<br/><br/>- Automatización de ciertas tareas presentes en los procesos de depilación láser e implantación de <rem:ref oid="GLO-0017">bráckets</rem:ref>.</rem:text>
+<rem:text>- Automatización del almacén de la clínica. El sistema notificará al <rem:ref oid="GLO-0005">cliente</rem:ref> cuando el <rem:ref oid="GLO-0004">stock</rem:ref> de un producto sea menor de lo requerido y solicitará la cantidad deseada al proveedor.<br/><br/>- Diversidad a la hora de pedir citas. Además de los métodos acutales (vía telefónica y presencial), añadir otro método para solicitar las citas (vía on-line).<br/><br/>- Ofrecer otro método de venta. Añadir la posibilidad de vender los productos del local en la web.<br/><br/>- Automatización de ciertas tareas presentes en los procesos de depilación láser e implantación de bráckets.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -4692,7 +4650,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>- &lt;b&gt;Empleado:&lt;/b&gt; clase que generaliza a los empleados de la clínica. Sigue una generalización incompleta y disjunta y contiene el nombre, el apellido, el teléfono, el dni y el email.<br/><br/>- &lt;b&gt;Administrador de Ventas:&lt;/b&gt; clase que representa a uno de los roles de empleado de la clínica. Obtiene sus atributos de la generalización<br/><br/>- &lt;b&gt;Especialista:&lt;/b&gt; clase que representa al rol de odontólogo y al de médico a través de un enumerado &quot;Especialidad&quot;. Además de este atributo, contiene los de la generalización.<br/><br/>- &lt;b&gt;Proveedor:&lt;/b&gt; clase que representa a la empresa que suministra los productos a la clínica. Contiene el nombre, el teléfono, la dirección y el email.<br/><br/>- &lt;b&gt;Encargo:&lt;/b&gt; clase que representa una solicitud de productos al proveedor. Contiene las fechas de envío y recepción y un enumerate &quot;Estado&quot; que indica la situación de éste.<br/><br/>- &lt;b&gt;Factura:&lt;/b&gt; clase que generaliza a los diferentes tipos de facturas que se manejan en el dominio de la clínica. Es una generalización completa y disjunta y contiene un atributo importe.<br/><br/>- &lt;b&gt;Factura de Proveedor:&lt;/b&gt; clase que representa a la factura que se crea al realizar un encargo. Obtiene sus atributos de la generalización.<br/><br/>- &lt;b&gt;Líneas de Factura de Proveedor:&lt;/b&gt; clase que representa las distintas líneas que forman una factura de proveedor. Contiene la cantidad y el precio unitario de cada producto.<br/><br/>- &lt;b&gt;<rem:ref oid="GLO-0006">Usuario</rem:ref>:&lt;/b&gt; clase que representa el rol de persona que solicita un <rem:ref oid="GLO-0007">servicio</rem:ref> de la clínica o que realiza la adquisición de algún producto. Contiene el nombre, el apellido, el teléfono, el dni, el email, la dirección, si posee alguna alergia y las operaciones anteriores, en caso de que hubiera.<br/><br/>- &lt;b&gt;Pedido:&lt;/b&gt; clase que representa la adquisición por parte del <rem:ref oid="GLO-0006">usuario</rem:ref> de algún producto, a través de la web o de la tienda física. Contiene el enumerado &quot;Método&quot; que representa si es on-line o presencial y el enumerado &quot;Estado&quot; que indica su estado, valga la redundancia.<br/><br/>- &lt;b&gt;Factura de Pedido:&lt;/b&gt; clase que representa a la factura que se crea al realizar un pedido. Contiene el enumerado &quot;Pago&quot; que hace referencia a la forma en que se ha realiado el pago, los gatos de envío y además, obtiene sus atributos de la generalización.<br/><br/>- &lt;b&gt;Líneas de Factura de Pedido:&lt;/b&gt; clase que representa las distintas líneas que forman una factura de pedido. Contiene la cantidad de cada producto.<br/><br/>- &lt;b&gt;Producto:&lt;/b&gt; clase que representa tanto a los productos utilizados en las consultas como a los que se venden en la clínica. Ambos se solicitan a proveedores. Contiene el nombre, el número de muestras que hay en la clínica, la marca, el <rem:ref oid="GLO-0004">stock</rem:ref> y el precio al que se vende, si es un producto para vender.<br/><br/>- &lt;b&gt;Cita:&lt;/b&gt; clase que representa a la solicitud de un <rem:ref oid="GLO-0006">usuario</rem:ref> para realizar una consulta. Contiene la fecha a la que se realizará, un motivo, si es urgente o no, el tiempo estimado para la consulta y un enumerado &quot;Concepto&quot; que indica el tipo de consulta.<br/><br/>- &lt;b&gt;Consulta:&lt;/b&gt; clase que representa al <rem:ref oid="GLO-0007">servicio</rem:ref> que se realiza en la clínica a un <rem:ref oid="GLO-0006">usuario</rem:ref>, dejando de lado el <rem:ref oid="GLO-0007">servicio</rem:ref> de ventas. Contiene la duración y la información relativa al desarrollo de ésta.<br/><br/>- &lt;b&gt;Informe:&lt;/b&gt; clase que representa a la información detallada que recibirá el paciente tras una consulta. Contiene la descripción y las recomendaciones.<br/><br/>- &lt;b&gt;Factura de Consulta:&lt;/b&gt; clase que representa a la factura que se crea tras realizar una cosulta. Contiene el concepto de ésta y además, obtiene sus atributos de la generalización.</rem:text>
+<rem:text>- &lt;b&gt;Empleado:&lt;/b&gt; clase que generaliza a los empleados de la clínica. Sigue una generalización incompleta y disjunta y contiene el nombre, el apellido, el teléfono, el dni y el email.<br/><br/>- &lt;b&gt;Administrador de Ventas:&lt;/b&gt; clase que representa a uno de los roles de empleado de la clínica. Obtiene sus atributos de la generalización<br/><br/>- &lt;b&gt;Especialista:&lt;/b&gt; clase que representa al rol de odontólogo y al de médico a través de un enumerado &quot;Especialidad&quot;. Además de este atributo, contiene los de la generalización.<br/><br/>- &lt;b&gt;Proveedor:&lt;/b&gt; clase que representa a la empresa que suministra los productos a la clínica. Contiene el nombre, el teléfono, la dirección y el email.<br/><br/>- &lt;b&gt;Encargo:&lt;/b&gt; clase que representa una solicitud de productos al proveedor. Contiene las fechas de envío y recepción y un enumerate &quot;Estado&quot; que indica la situación de éste.<br/><br/>- &lt;b&gt;Factura:&lt;/b&gt; clase que generaliza a los diferentes tipos de facturas que se manejan en el dominio de la clínica. Es una generalización completa y disjunta y contiene un atributo importe.<br/><br/>- &lt;b&gt;Factura de Proveedor:&lt;/b&gt; clase que representa a la factura que se crea al realizar un encargo. Obtiene sus atributos de la generalización.<br/><br/>- &lt;b&gt;Líneas de Factura de Proveedor:&lt;/b&gt; clase que representa las distintas líneas que forman una factura de proveedor. Contiene la cantidad y el precio unitario de cada producto.<br/><br/>- &lt;b&gt;<rem:ref oid="GLO-0006">Usuario</rem:ref>:&lt;/b&gt; clase que representa el rol de persona que solicita un servicio de la clínica o que realiza la adquisición de algún producto. Contiene el nombre, el apellido, el teléfono, el dni, el email, la dirección, si posee alguna alergia y las operaciones anteriores, en caso de que hubiera.<br/><br/>- &lt;b&gt;Cesta:&lt;/b&gt; clase que representa a la cesta que posee al <rem:ref oid="GLO-0006">usuario</rem:ref> que realiza una compra a través de la web y que contiene el importe final de los productos que contenga.<br/><br/>- &lt;b&gt;Linea de Cesta: &lt;/b&gt; clase que representa las distintas líneas que forma la cesta. Contiene la cantidad de cada producto.<br/><br/>- &lt;b&gt;Pedido:&lt;/b&gt; clase que representa la adquisición por parte del <rem:ref oid="GLO-0006">usuario</rem:ref> de algún producto, a través de la web o de la tienda física. Contiene el enumerado &quot;Método&quot; que representa si es on-line o presencial y el enumerado &quot;Estado&quot; que indica su estado, valga la redundancia.<br/><br/>- &lt;b&gt;Factura de Pedido:&lt;/b&gt; clase que representa a la factura que se crea al realizar un pedido. Contiene el enumerado &quot;Pago&quot; que hace referencia a la forma en que se ha realiado el pago, los gatos de envío y además, obtiene sus atributos de la generalización.<br/><br/>- &lt;b&gt;Líneas de Factura de Pedido:&lt;/b&gt; clase que representa las distintas líneas que forman una factura de pedido. Contiene la cantidad de cada producto.<br/><br/>- &lt;b&gt;Producto:&lt;/b&gt; clase que representa tanto a los productos utilizados en las consultas como a los que se venden en la clínica. Ambos se solicitan a proveedores. Contiene el nombre, el número de muestras que hay en la clínica, la marca, el <rem:ref oid="GLO-0004">stock</rem:ref> y el precio al que se vende, si es un producto para vender.<br/><br/>- &lt;b&gt;Cita:&lt;/b&gt; clase que representa a la solicitud de un <rem:ref oid="GLO-0006">usuario</rem:ref> para realizar una consulta. Contiene la fecha a la que se realizará, un motivo, si es urgente o no, el tiempo estimado para la consulta y un enumerado &quot;Concepto&quot; que indica el tipo de consulta.<br/><br/>- &lt;b&gt;Consulta:&lt;/b&gt; clase que representa al servicio que se realiza en la clínica a un <rem:ref oid="GLO-0006">usuario</rem:ref>, dejando de lado el servicio de ventas. Contiene la duración y la información relativa al desarrollo de ésta.<br/><br/>- &lt;b&gt;Informe:&lt;/b&gt; clase que representa a la información detallada que recibirá el paciente tras una consulta. Contiene la descripción y las recomendaciones.<br/><br/>- &lt;b&gt;Factura de Consulta:&lt;/b&gt; clase que representa a la factura que se crea tras realizar una cosulta. Contiene el concepto de ésta y además, obtiene sus atributos de la generalización.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0062">
@@ -5056,6 +5014,20 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>6.3 </rem:number>
+<rem:paragraph oid="PRG-0057">
+<rem:name>Parrafo1</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>12</rem:month>
+<rem:day>21</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>No procede</rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:section>
 <rem:section oid="SEC-0074">
@@ -5115,130 +5087,16 @@
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source="FRQ-0011"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0008"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0009"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0005"  target="OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0006"  target="OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0007"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0010"  target="OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0010"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0003"  target="OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0006"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0007"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0002"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0013"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0012"  target="OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="CRQ-0001"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0002"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0004"  target="OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0003"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0014"  target="OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0004"  target="OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0006"  target="OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0010"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0005"  target="OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0011"  target="OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0001"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0015"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0004"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0009"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0004"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0008"  target="OBJ-0005" >
+<rem:trace source="IRQ-0004"  target="OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="IRQ-0006"  target="OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="IRQ-0004"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0003"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0006"  target="OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0010"  target="OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0008"  target="OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0002"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0005"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0010"  target="OBJ-0002" >
+<rem:trace source="IRQ-0010"  target="OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="IRQ-0001"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0007"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0006"  target="OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="IRQ-0001"  target="OBJ-0005" >
@@ -5247,39 +5105,162 @@
 <rem:trace source="UC-0001"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="IRQ-0010"  target="OBJ-0005" >
+<rem:trace source="IRQ-0005"  target="OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="IRQ-0005"  target="OBJ-0006" >
+<rem:trace source="IRQ-0002"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0010"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0008"  target="OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="IRQ-0009"  target="OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="IRQ-0010"  target="OBJ-0006" >
+<rem:trace source="IRQ-0006"  target="OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0013"  target="OBJ-0004" >
+<rem:trace source="IRQ-0010"  target="OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0012"  target="OBJ-0004" >
+<rem:trace source="IRQ-0003"  target="OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0016"  target="OBJ-0002" >
+<rem:trace source="IRQ-0010"  target="OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0015"  target="OBJ-0001" >
+<rem:trace source="IRQ-0006"  target="OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0016"  target="OBJ-0001" >
+<rem:trace source="IRQ-0007"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0005"  target="OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="CRQ-0001"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0006"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0013"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0015"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0003"  target="OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0002"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0004"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0006"  target="OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0011"  target="OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0008"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0007"  target="OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="FRQ-0014"  target="OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source="FRQ-0016"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0001"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0005"  target="OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0017"  target="OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="CRQ-0011"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0008"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0016"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0017"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0002"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0004"  target="OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0010"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="CRQ-0011"  target="OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0004"  target="OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0009"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0005"  target="OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0010"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0006"  target="OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0015"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0009"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0014"  target="OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0004"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0010"  target="OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0003"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0007"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0011"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0012"  target="OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0013"  target="OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
 <rem:predefinedValueTypes>
-<rem:predefinedValueType oid="PVT-0003">
-<rem:name>Integer</rem:name>
+<rem:predefinedValueType oid="PVT-0005">
+<rem:name>String</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -5290,52 +5271,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Integer numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0001">
-<rem:name>Enum Literal</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Enumeration literals</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0007">
-<rem:name>Time</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Hour:minutes:seconds</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0004">
-<rem:name>Natural</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Natural numbers</rem:description>
+<rem:description>Alphanumeric strings</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0002">
@@ -5353,8 +5289,23 @@
 <rem:description>Real numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0005">
-<rem:name>String</rem:name>
+<rem:predefinedValueType oid="PVT-0001">
+<rem:name>Enum Literal</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Enumeration literals</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0003">
+<rem:name>Integer</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -5365,7 +5316,22 @@
 </rem:date>
 </rem:version>
 <rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Alphanumeric strings</rem:description>
+<rem:description>Integer numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0004">
+<rem:name>Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Natural numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0006">
@@ -5383,28 +5349,43 @@
 <rem:description>Dates</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0007">
+<rem:name>Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Hour:minutes:seconds</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0001">
-<rem:name>PD</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>resuelto</rem:name>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
@@ -5412,27 +5393,21 @@
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>no resuelto</rem:name>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
+<rem:defectStatusValue oid = "DSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0003">
-<rem:name>en proceso de negociación</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
 <rem:name>Ambigüedad</rem:name>
 <rem:description>
@@ -5443,6 +5418,18 @@
 <rem:name>No necesidad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0005">
@@ -5457,10 +5444,10 @@
 <![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0007">
@@ -5469,22 +5456,10 @@
 <![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0016">
@@ -5493,10 +5468,16 @@
 <![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0015">
@@ -5505,10 +5486,10 @@
 <![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0023">
@@ -5517,36 +5498,39 @@
 <![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0002">
-<rem:name>vital</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
-</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
 </rem:importanceValue>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
+</rem:importanceValue>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>media</rem:name>
+</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
 </rem:stabilityValue>
@@ -5556,9 +5540,12 @@
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0003">
-<rem:name>media</rem:name>
-</rem:stabilityValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
@@ -5567,12 +5554,6 @@
 </rem:statusValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0005">
-<rem:name>validado</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
@@ -5583,23 +5564,8 @@
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0001">
-<rem:name>PD</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
@@ -5607,26 +5573,41 @@
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0010">
 <rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0011">
 <rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>inmediatamente</rem:name>
-</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0004">
-<rem:name>puede esperar</rem:name>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
