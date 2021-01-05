@@ -4077,7 +4077,7 @@
 </rem:time>
 <rem:place>On-line</rem:place>
 <rem:results>Se llevó a cabo una primera toma de contacto con la recepcionista de la clínica, en la que hemos estado realizando preguntas sobre el número de trabajadores de la empresa y sus ocupaciones, las distintas actividades que se llevan a cabo y algunos problemas que tenían. Este primer acercamiento nos ha ayuda a conocer mejor la clínica.</rem:results>
-	<rem:attenders stakeholders = "STK-0001 STK-0003 STK-0002 STK-0004 "/>
+	<rem:attenders stakeholders = "STK-0002 STK-0001 STK-0003 STK-0004 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0002">
 <rem:name>Acta de la 2ª reunión</rem:name>
@@ -4102,7 +4102,7 @@
 </rem:time>
 <rem:place>On-line</rem:place>
 <rem:results>En esta segunda toma de contacto, hemos estado comentando los problemas más frecuentes y que se pueden informatizar, como por ejemplo la venta de productos y las citas. Además, hemos indagado más detalladamente en los procesos de negocio que se realizan.<br/></rem:results>
-	<rem:attenders stakeholders = "STK-0001 STK-0003 STK-0002 STK-0004 "/>
+	<rem:attenders stakeholders = "STK-0002 STK-0001 STK-0003 STK-0004 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0003">
 <rem:name>Acta de la 3ª reunión</rem:name>
@@ -4127,7 +4127,7 @@
 </rem:time>
 <rem:place>On-line</rem:place>
 <rem:results>En esta ocasión, hemos estado recogiendo requisitos de información, reglas de negocio, y requisitos funcionales y no funcionales. Además, se han aclarado conceptos que no estaban totalmente definidos en un principio. Por último, hemos estado comentando los avances y las nuevas ideas del proyecto.</rem:results>
-	<rem:attenders stakeholders = "STK-0001 STK-0003 STK-0002 STK-0004 "/>
+	<rem:attenders stakeholders = "STK-0002 STK-0001 STK-0003 STK-0004 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0004">
 <rem:name>Acta de la 4ª reunión</rem:name>
@@ -4152,7 +4152,7 @@
 </rem:time>
 <rem:place>On-line</rem:place>
 <rem:results>En este encuentro hemos resueltos dudas que surgieron a medida que evolucionaba el proyecto y hemos planteado y discutido los diferentes casos de uso del sistema y varias restricciones que debe cumplir el sistema. También se han terminado de validar diversos requisitos funcionales y no funcionales.</rem:results>
-	<rem:attenders stakeholders = "STK-0001 STK-0003 STK-0002 STK-0004 "/>
+	<rem:attenders stakeholders = "STK-0002 STK-0001 STK-0003 STK-0004 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0005">
 <rem:name>Acta de la 5ª reunión</rem:name>
@@ -4177,7 +4177,7 @@
 </rem:time>
 <rem:place>On-line</rem:place>
 <rem:results>Primero le mostramos varios mockups realizados días antes para conocer su impresión. Estos fueron bien recibidos aunque se sugirieron algunas modificaciones. Se revisó todo lo realizado desde la reunión anterior, haciendo énfasis en el catálogo de requisitos y tras el visto bueno, discutimos sobre la navegabilidad del sistema</rem:results>
-	<rem:attenders stakeholders = "STK-0001 STK-0003 STK-0002 STK-0004 "/>
+	<rem:attenders stakeholders = "STK-0002 STK-0001 STK-0003 STK-0004 "/>
 </rem:meeting>
 </rem:section>
 <rem:section oid="SEC-0026">
@@ -5236,7 +5236,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>- &lt;b&gt;Vista de <rem:ref oid="GLO-0006">usuario</rem:ref> sin sesión activa:&lt;/b&gt; Comenzamos viendo la página principal, en la que se información relativa a la clínica y los diferentes tratamientos disponibles.<br/>Esta vista contiene un menú desde donde se puede acceder a inicio (página actual), productos, FAQ, iniciar sesión y regístrate.<br/>Si accedemos a productos aparecerá un buscador para encontrar el producto deseado de forma sencilla y un catálogo general con los productos que se pueden comprar en la clínica, si pulsamos sobre uno de ellos nos llevará a una vista donde veremos los detalles de este, además de productos recomendados. También hay un botón de &quot;añadir a la cesta&quot; donde en este caso al no tener sesión activa nos enviará a iniciar sesión.<br/><br/>- &lt;b&gt;Vista de <rem:ref oid="GLO-0006">usuario</rem:ref> con sesión activa:&lt;/b&gt; Si un <rem:ref oid="GLO-0006">usuario</rem:ref> inicia sesión aparecerá de nuevo en la página principal, en este caso las pestañas que se encontrará en el menú serán: inicio, productos, mis compras, mis citas, FAQ, cesta y perfil.<br/>Si tenemos uno o varios productos añadido a la cesta, en ella nos aparecerá un listado con los productos y las cantidades seleccionadas de cada uno, dando la opción de eliminarlo o modificar las cantidades, además se muestra el importe total del pedido y aparece el botón de &quot;tramitar pedido&quot;. Al tramitar el pedido nos enviará a la página de realizar compra donde podremos elegir el método de pago, dirección de entrega y veremos el resumen del pedido.<br/>Si pulsamos sobre &quot;mis compras&quot; nos aparecerá un listado ordenable con los pedidos realizados, dando la opción de acceder a los artículos comprados, ver la factura y el estado del pedido.<br/>Al acceder a la factura nos aparecerá el pedido que contiene al artículo seleccionado junto a los artículos relacionados con dicho pedido.<br/>Si pulsamos sobre &quot;mis citas&quot; nos aparecerá un listado con las citas pasadas y futuras. Cada cita pasada se puede desplegar para ver los detalles (recomendaciones). Además, las citas pendientes se pueden anular pulsando sobre una cruz que se encuentra a la derecha de ésta y en las citas pasadas aparece la factura asociada.<br/>Al pulsar sobre el icono más, se enviará al formulario de solicitar una cita, donde se elegirá el concepto, motivo y la fecha que estime oportuna.<br/><br/>- &lt;b&gt;Vista del administrador de ventas:&lt;/b&gt; Comienza en el listado de productos registrado en el sistema. En esta página se muestran los atributos de cada producto y junto a cada uno aparecerá un icono para subir el producto a la web en caso de que no esté aún y sea un producto de venta. Además, aparecerá un icono de un más, al pulsarlo nos llevará a la creación de un nuevo producto en el que será necesario rellenar los correspondientes atributos, entre los que se encuentra el proveedor.<br/>Si accedemos a la sección &quot;proveedores&quot; nos aparecerá un listado con todos ellos y los detalles correspondiente, también aparecerá un botón de más, que nos llevará al formulario de añadir proveedor.<br/>Si pulsamos sobre &quot;encargos&quot; nos aparecerá un listado con los artículos encargados a cada proveedor y todos sus detalles. Además, a la derecha de cada artículo nos aparecerá un icono que al pulsar sobre él nos llevará a la factura correspondiente al encargo en el que se encuentra el artículo junto con el resto del encargo. En la parte inferior del listado de encargos aparece un botón de más, que nos llevará a un formulario para realizar un nuevo encargo. En este, tenemos que seleccionar un proveedor y a su derecha se podrá elegir uno de los artículos relacionados con él además de la cantidad. En el caso de querer añadir un nuevo artículo pulsamos sobre el botón más y finalmente pulsando sobre el botón de realizar encargo se solicitará a los proveedores correspondientes.<br/>Si pulsamos sobre &quot;pedidos&quot; aparecerá un listado de los artículos comprados por los usuarios de forma on-line o presencial. En caso de que un <rem:ref oid="GLO-0006">usuario</rem:ref> no registrado realice una compra de forma presencial en <rem:ref oid="GLO-0006">usuario</rem:ref> aparecerá anónimo. A la derecha de cada artículo aparecerá un icono que al pulsarlo nos llevará a la factura correspondiente, en la que aparece el artículo comprado junto al resto del pedido. En la parte inferior del listado de pedido aparece un icono de más, que servirá para crear un pedido de forma presencial (en caso de realizarse el pedido online este se registrará de forma automática).<br/>Otra de las pestañas del menú es &quot;balance&quot;, donde al pulsar sobre él nos llevará a una vista donde se muestra las diferentes transacciones económicas de la clínica y finalmente un beneficio total.<br/><br/>- &lt;b&gt;Vista del resto de empleados:&lt;/b&gt; Al acceder como empleado no administrativo de venta, aparecerá en la vista de citas próximas. Si la cita es urgente aparecerá un símbolo de exclamación. En caso de anulación de cita, se podrá descartar con un botón que aparecerá a la derecha de cada cita.<br/>Si pulsamos sobre &quot;registrar cita&quot; aparecerá una página similar a la de registrar cita en <rem:ref oid="GLO-0005">cliente</rem:ref> con la excepción de que ahora es necesario rellenar el tiempo estimado de consulta y la urgencia de dicha cita.<br/>Si pulsamos sobre &quot;pacientes&quot; nos llevará a una vista donde podremos buscar a pacientes y acceder a su historial médico. En el historial médico aparecerá los datos del paciente junto con las consultas pasadas (permitiendo la descarga de estas) y futuras, en esta última se podrá añadir la consulta junto con el informe cuando proceda.</rem:text>
+<rem:text>- &lt;b&gt;Vista de <rem:ref oid="GLO-0006">usuario</rem:ref> sin sesión activa:&lt;/b&gt; Comenzamos viendo la página principal, en la que se información relativa a la clínica y los diferentes tratamientos disponibles.<br/>Esta vista contiene un menú desde donde se puede acceder a inicio (página actual), productos, FAQ, iniciar sesión y regístrate.<br/>Si accedemos a productos aparecerá un buscador para encontrar el producto deseado de forma sencilla y un catálogo general con los productos que se pueden comprar en la clínica, si pulsamos sobre uno de ellos nos llevará a una vista donde veremos los detalles de este, además de productos recomendados. También hay un botón de &quot;añadir a la cesta&quot; donde en este caso al no tener sesión activa nos enviará a iniciar sesión. <br/><br/>- &lt;b&gt;Vista de <rem:ref oid="GLO-0006">usuario</rem:ref> con sesión activa:&lt;/b&gt; Si un <rem:ref oid="GLO-0006">usuario</rem:ref> inicia sesión aparecerá de nuevo en la página principal, en este caso las pestañas que se encontrará en el menú serán: inicio, productos, mis compras, mis citas, FAQ, cesta y perfil.<br/>Si tenemos uno o varios productos añadido a la cesta, en ella nos aparecerá un listado con los productos y las cantidades seleccionadas de cada uno, dando la opción de eliminarlo o modificar las cantidades, además se muestra el importe total del pedido y aparece el botón de &quot;tramitar pedido&quot;. Al tramitar el pedido nos enviará a la página de realizar compra donde podremos elegir el método de pago, dirección de entrega y veremos el resumen del pedido.<br/>Si pulsamos sobre &quot;mis compras&quot; nos aparecerá un listado ordenable con los pedidos realizados, dando la opción de acceder a los artículos comprados, ver la factura y el estado del pedido.<br/>Al acceder a la factura nos aparecerá el pedido que contiene al artículo seleccionado junto a los artículos relacionados con dicho pedido.<br/>Si pulsamos sobre &quot;mis citas&quot; nos aparecerá un listado con las citas pasadas y futuras. Cada cita pasada se puede desplegar para ver los detalles (recomendaciones). Además, las citas pendientes se pueden anular pulsando sobre una cruz que se encuentra a la derecha de ésta y en las citas pasadas aparece la factura asociada.<br/>Al pulsar sobre el icono más, se enviará al formulario de solicitar una cita, donde se elegirá el concepto, motivo y la fecha que estime oportuna.<br/>[Además, en la esquina superior derecha de la página podemos ver un icono, que si pulsamos nos dirigiremos hacia nuestro perfil, donde además de información relativa a nosotros aparecerá las tarjetas asociadas a nuestra cuenta y un botón de &quot;añadir&quot; que nos permitirá registrar nuevas tarjetas de créditos.]<br/><br/>- &lt;b&gt;Vista del administrador de ventas:&lt;/b&gt; Comienza en el listado de productos registrado en el sistema. En esta página se muestran los atributos de cada producto y junto a cada uno aparecerá un icono para subir el producto a la web en caso de que no esté aún y sea un producto de venta. Además, aparecerá un icono de un más, al pulsarlo nos llevará a la creación de un nuevo producto en el que será necesario rellenar los correspondientes atributos, entre los que se encuentra el proveedor.<br/>Si accedemos a la sección &quot;proveedores&quot; nos aparecerá un listado con todos ellos y los detalles correspondiente, también aparecerá un botón de más, que nos llevará al formulario de añadir proveedor.<br/>Si pulsamos sobre &quot;encargos&quot; nos aparecerá un listado con los artículos encargados a cada proveedor y todos sus detalles. Además, a la derecha de cada artículo nos aparecerá un icono que al pulsar sobre él nos llevará a la factura correspondiente al encargo en el que se encuentra el artículo junto con el resto del encargo. En la parte inferior del listado de encargos aparece un botón de más, que nos llevará a un formulario para realizar un nuevo encargo. En este, tenemos que seleccionar un proveedor y a su derecha se podrá elegir uno de los artículos relacionados con él además de la cantidad. En el caso de querer añadir un nuevo artículo pulsamos sobre el botón más y finalmente pulsando sobre el botón de realizar encargo se solicitará a los proveedores correspondientes.<br/>Si pulsamos sobre &quot;pedidos&quot; aparecerá un listado de los artículos comprados por los usuarios de forma on-line o presencial. En caso de que un <rem:ref oid="GLO-0006">usuario</rem:ref> no registrado realice una compra de forma presencial en <rem:ref oid="GLO-0006">usuario</rem:ref> aparecerá anónimo. A la derecha de cada artículo aparecerá un icono que al pulsarlo nos llevará a la factura correspondiente, en la que aparece el artículo comprado junto al resto del pedido. En la parte inferior del listado de pedido aparece un icono de más, que servirá para crear un pedido de forma presencial (en caso de realizarse el pedido online este se registrará de forma automática).<br/>Otra de las pestañas del menú es &quot;balance&quot;, donde al pulsar sobre él nos llevará a una vista donde se muestra las diferentes transacciones económicas de la clínica y finalmente un beneficio total.<br/>[En la esquina superior derecha podemos observar, un icono de una campana que simboliza las notificaciones o alertas pendientes, en caso de que aparezca gris significa que no existen nuevas alertas (relativas al <rem:ref oid="GLO-0004">stock</rem:ref> de los producto), y en caso de que aparezca en azul significará que existen alertas y si pulsamos sobre ella nos redirigirá a la página de alertas, donde podremos seleccionar los productos con <rem:ref oid="GLO-0004">stock</rem:ref> bajo para un próximo encargo. Y si pulsamos sobre el otro icono nos redirigirá hacia nuestro perfil.]<br/><br/>- &lt;b&gt;Vista del resto de empleados:&lt;/b&gt; Al acceder como empleado no administrativo de venta, aparecerá en la vista de citas próximas. Si la cita es urgente aparecerá un símbolo de exclamación. En caso de anulación de cita, se podrá descartar con un botón que aparecerá a la derecha de cada cita.<br/>Si pulsamos sobre &quot;registrar cita&quot; aparecerá una página similar a la de registrar cita en <rem:ref oid="GLO-0005">cliente</rem:ref> con la excepción de que ahora es necesario rellenar el tiempo estimado de consulta y la urgencia de dicha cita.<br/>Si pulsamos sobre &quot;pacientes&quot; nos llevará a una vista donde podremos buscar a pacientes y acceder a su historial médico. En el historial médico aparecerá los datos del paciente junto con las consultas pasadas (permitiendo la descarga de estas) y futuras, en esta última se podrá añadir la consulta junto con el informe cuando proceda.<br/>[Además, en la esquina superior derecha podemos ver un icono, donde si pulsamos nos redirigirá hacia nuestro perfil.]</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -5497,13 +5497,40 @@
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source="IRQ-0005"  target="OBJ-0002" >
+<rem:trace source="FRQ-0013"  target="OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="IRQ-0003"  target="OBJ-0002" >
+<rem:trace source="FRQ-0016"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="IRQ-0010"  target="OBJ-0002" >
+<rem:trace source="FRQ-0017"  target="OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="CRQ-0011"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0012"  target="OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="CRQ-0011"  target="OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0010"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0016"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0014"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0015"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0017"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0011"  target="OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="IRQ-0004"  target="OBJ-0002" >
@@ -5512,85 +5539,49 @@
 <rem:trace source="IRQ-0002"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source="IRQ-0003"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0005"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0010"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source="IRQ-0006"  target="OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0011"  target="OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0009"  target="OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0006"  target="OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0010"  target="OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0010"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0015"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="IRQ-0008"  target="OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="UC-0013"  target="OBJ-0001" >
+<rem:trace source="IRQ-0006"  target="OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="UC-0004"  target="OBJ-0002" >
+<rem:trace source="IRQ-0009"  target="OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="UC-0003"  target="OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="CRQ-0001"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0006"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0007"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0006"  target="OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0008"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0009"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0010"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0014"  target="OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0005"  target="OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0001"  target="OBJ-0005" >
+<rem:trace source="IRQ-0010"  target="OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="IRQ-0006"  target="OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0003"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0004"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0004"  target="OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0002"  target="OBJ-0005" >
+<rem:trace source="IRQ-0010"  target="OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="IRQ-0007"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0005"  target="OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0004"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0001"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0010"  target="OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="IRQ-0001"  target="OBJ-0005" >
@@ -5599,76 +5590,100 @@
 <rem:trace source="UC-0001"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="IRQ-0010"  target="OBJ-0004" >
+<rem:trace source="UC-0015"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="IRQ-0001"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0005"  target="OBJ-0006" >
+<rem:trace source="UC-0013"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="UC-0002"  target="OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0011"  target="OBJ-0005" >
+<rem:trace source="UC-0006"  target="OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0006"  target="OBJ-0006" >
+<rem:trace source="FRQ-0001"  target="OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0010"  target="OBJ-0003" >
+<rem:trace source="FRQ-0002"  target="OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0009"  target="OBJ-0002" >
+<rem:trace source="UC-0006"  target="OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0005"  target="OBJ-0006" >
+<rem:trace source="UC-0011"  target="OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0010"  target="OBJ-0005" >
+<rem:trace source="FRQ-0004"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0004"  target="OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="FRQ-0004"  target="OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0007"  target="OBJ-0005" >
+<rem:trace source="FRQ-0009"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="CRQ-0001"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0010"  target="OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0007"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0009"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0010"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0003"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0005"  target="OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0008"  target="OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="FRQ-0008"  target="OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0013"  target="OBJ-0004" >
+<rem:trace source="UC-0005"  target="OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0014"  target="OBJ-0002" >
+<rem:trace source="FRQ-0006"  target="OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0012"  target="OBJ-0004" >
+<rem:trace source="FRQ-0007"  target="OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0015"  target="OBJ-0001" >
+<rem:trace source="UC-0003"  target="OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="CRQ-0011"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0016"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0016"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="CRQ-0011"  target="OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0017"  target="OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0017"  target="OBJ-0005" >
+<rem:trace source="UC-0014"  target="OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
+<rem:predefinedValueType oid="PVT-0001">
+<rem:name>Enum Literal</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Enumeration literals</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0002">
 <rem:name>Real</rem:name>
 <rem:version>
@@ -5682,66 +5697,6 @@
 </rem:version>
 <rem:comments>Predefined OCL type</rem:comments>
 <rem:description>Real numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0004">
-<rem:name>Natural</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Natural numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0003">
-<rem:name>Integer</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Integer numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0005">
-<rem:name>String</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Alphanumeric strings</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0007">
-<rem:name>Time</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Hour:minutes:seconds</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0006">
@@ -5759,19 +5714,64 @@
 <rem:description>Dates</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0001">
-<rem:name>Enum Literal</rem:name>
+<rem:predefinedValueType oid="PVT-0005">
+<rem:name>String</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2020</rem:year>
+<rem:year>2000</rem:year>
 <rem:month>10</rem:month>
-<rem:day>11</rem:day>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Alphanumeric strings</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0004">
+<rem:name>Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Natural numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0007">
+<rem:name>Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Enumeration literals</rem:description>
+<rem:description>Hour:minutes:seconds</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0003">
+<rem:name>Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Integer numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
@@ -5779,20 +5779,20 @@
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verificado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0004">
 <rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0005">
-<rem:name>verificado</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
@@ -5806,9 +5806,6 @@
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
-<rem:defectStatusValue oid = "DSV-0002">
-<rem:name>no eliminado</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
 </rem:defectStatusValue>
@@ -5818,70 +5815,13 @@
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
+</rem:defectStatusValue>
 <rem:defectTypeValue oid = "DTV-0013">
 <rem:name>Prioridad no establecida</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0005">
@@ -5890,10 +5830,70 @@
 <![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
 <rem:name>Ambigüedad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0006">
@@ -5908,16 +5908,16 @@
 <![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0009">
@@ -5926,8 +5926,8 @@
 <![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
@@ -5935,20 +5935,20 @@
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>PD</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0003">
-<rem:name>media</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>media</rem:name>
 </rem:stabilityValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
@@ -5959,11 +5959,11 @@
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0005">
-<rem:name>validado</rem:name>
-</rem:statusValue>
 <rem:statusValue oid = "STV-0004">
 <rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
 </rem:statusValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
@@ -5974,8 +5974,29 @@
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>día(s)</rem:name>
@@ -5983,41 +6004,20 @@
 <rem:timeUnitValue oid = "TUV-0010">
 <rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0001">
-<rem:name>PD</rem:name>
-</rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presión</rem:name>
-</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>inmediatamente</rem:name>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
